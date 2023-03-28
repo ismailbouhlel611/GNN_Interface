@@ -5,48 +5,109 @@ import { Network } from 'vis-network';
 import './Graph.css';
 import nodesData from './nodes22.json';
 import edgesData from './edges.json';
-
+import Graph from 'vis-react';
 console.log(nodesData.label);
 
-export default class MyVisComponent extends React.Component {
+
   // ... component code here ...
-  componentDidMount() {
+
     // create a new network instance
-    var nodes=nodesData;
-    var edges=edgesData;
+    var nodes = nodesData;
+    var edges = edgesData;
     const container = document.getElementById('mynetwork');
     const data = {
-      nodes:nodes,
+      nodes: nodes,
       edges: edges
     };
 
-    
+
     const options = {
-      "edges": {
-        "smooth": {
-          "forceDirection": "none"
+      edges: {
+        smooth: {
+          forceDirection: "none",
+          
+        },
+        color:"#1E2E7A",
+        arrows:{
+          to:false,
+          from:false
+        },
+      },
+      height: "100%",
+      width: "100%",
+      autoResize:true,
+      arrowStrikethrough: true,
+      chosen: true,
+      dashes: false,
+      physics: {
+        barnesHut: {
+          // gravitationalConstant: -10000,
+          centralGravity: 1,
+          springConstant: 0.00000000000001,
+          avoidOverlap: 0.1
+        },
+        
+        // maxVelocity: 0.5,
+        // minVelocity: 0
+      },
+      hierarchical: {
+        enabled: true,
+        levelSeparation: 400,
+        nodeSpacing: 200,
+        blockShifting: true,
+        edgeMinimization: true,
+        parentCentralization: true,
+        direction: 'UD',
+        sortMethod: 'hubsize',
+        shakeTowards: 'roots'
+      },
+      randomSeed: 2,
+      nodes: {
+        fixed: {
+          x: false,
+          y: false
+        },
+        shape: "eclipse",
+        size: 13,
+        borderWidth: 1.5,
+        borderWidthSelected: 2,
+        font: {
+          size: 15,
+          align: "center",
+          bold: {
+            color: "#bbbdc0",
+            size: 15,
+            vadjust: 0,
+            mod: "bold"
+          }
         }
       },
-      "physics": {
-        "barnesHut": {
-          "gravitationalConstant": -17300,
-          "centralGravity": 0,
-          "springConstant": 0.05,
-          "avoidOverlap": 0.12
-        },
-        "maxVelocity": 0.1,
-        "minVelocity": 0
+     
       }
-    };
-    
-    const network = new vis.Network(container, data, options);
+   
+    var events = {
+      select: function(event) {
+          var { nodes, edges } = event;
+      }
   };
-  render() {
-    return (
-      <div>
-        <div id="mynetwork" ></div>
-      </div>
-    );
-  }
+
+    export default function MyVisComponent(props){
+      
+      return(
+        // <div>
+          <Graph
+            graph={data}
+            options={options}
+            events={events}
+            // style={style}
+            // getNetwork={this.getNetwork}
+            // getEdges={this.getEdges}
+            // getNodes={this.getNodes}
+            // vis={vis => (this.vis = vis)}
+    />
+        // </div>
+      )
+    }
   
-}
+
+

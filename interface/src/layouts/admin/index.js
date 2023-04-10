@@ -5,16 +5,22 @@ import Footer from "components/footer/FooterAdmin.js";
 import Navbar from "components/navbar/NavbarAdmin.js";
 import Sidebar from "components/sidebar/Sidebar.js";
 import { SidebarContext } from "contexts/SidebarContext";
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import { Redirect, Route, Switch } from "react-router-dom";
 import routes from "routes.js";
+import { connect } from "react-redux";
+import { checkAuthenticated,load_user } from "../../actions/auth";
 
 // Custom Chakra theme
-export default function Dashboard(props) {
+const Dashboard=(props) => {
   const { ...rest } = props;
   // states and functions
   const [fixed] = useState(false);
   const [toggleSidebar, setToggleSidebar] = useState(false);
+  useEffect(()=>{
+    props.checkAuthenticated();
+    props.load_user();
+  },[])
   // functions for changing the states from components
   const getRoute = () => {
     return window.location.pathname !== "/admin/full-screen-maps";
@@ -167,3 +173,5 @@ export default function Dashboard(props) {
     </Box>
   );
 }
+
+export default connect(null, {checkAuthenticated, load_user})(Dashboard);

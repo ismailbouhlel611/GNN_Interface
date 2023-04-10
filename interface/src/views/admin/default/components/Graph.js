@@ -5,7 +5,7 @@ import { Network } from 'vis-network';
 import './Graph.css';
 import nodesData from './nodes22.json';
 import edgesData from './edges.json';
-import Graph from 'vis-react';
+// import Graph from 'vis-react';
 console.log(nodesData.label);
 
 
@@ -94,17 +94,18 @@ console.log(nodesData.label);
     export default function MyVisComponent(props){
       
       return(
+        <div></div>
         // <div>
-          <Graph
-            graph={data}
-            options={options}
-            events={events}
-            // style={style}
-            // getNetwork={this.getNetwork}
-            // getEdges={this.getEdges}
-            // getNodes={this.getNodes}
-            // vis={vis => (this.vis = vis)}
-    />
+    //       <Graph
+    //         graph={data}
+    //         options={options}
+    //         events={events}
+    //         // style={style}
+    //         // getNetwork={this.getNetwork}
+    //         // getEdges={this.getEdges}
+    //         // getNodes={this.getNodes}
+    //         // vis={vis => (this.vis = vis)}
+    // />
         // </div>
       )
     }

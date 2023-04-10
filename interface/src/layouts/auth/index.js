@@ -1,18 +1,23 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Redirect, Route, Switch } from "react-router-dom";
 import routes from "routes.js";
-
+import { checkAuthenticated,load_user } from "../../actions/auth";
 // Chakra imports
 import { Box, useColorModeValue } from "@chakra-ui/react";
 
 // Layout components
 import { SidebarContext } from "contexts/SidebarContext";
+import { connect } from "react-redux";
 
 // Custom Chakra theme
-export default function Auth() {
+const Auth = (props) => {
   // states and functions
   const [toggleSidebar, setToggleSidebar] = useState(false);
   // functions for changing the states from components
+  useEffect(()=>{
+    props.checkAuthenticated();
+    props.load_user();
+  },[])
   const getRoute = () => {
     return window.location.pathname !== "/auth/full-screen-maps";
   };
@@ -74,3 +79,5 @@ export default function Auth() {
     </Box>
   );
 }
+
+export default connect(null, {checkAuthenticated, load_user})(Auth);

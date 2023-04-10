@@ -68,7 +68,7 @@ export default function UserReports() {
   return (
     // <Box pt={{ base: "1300px", md: "800px", xl: "80px" }}>
       <div className="graph_container">
-      <MyVisComponent  />
+      {/* <MyVisComponent  /> */}
      </div>
       /* <SimpleGrid
         columns={{ base: 1, md: 2, lg: 3, "2xl": 6 }}

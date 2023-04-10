@@ -25,7 +25,10 @@ import { MdNotificationsNone, MdInfoOutline } from 'react-icons/md';
 import { FaEthereum } from 'react-icons/fa';
 import routes from 'routes.js';
 import { ThemeEditor } from './ThemeEditor';
-export default function HeaderLinks(props) {
+import { connect } from 'react-redux';
+import {logout} from '../../actions/auth'
+
+const HeaderLinks=(props,{logout, isAuthenticated}) => {
 	const { secondary } = props;
 	// Chakra Color Mode
 	const navbarIcon = useColorModeValue('gray.400', 'white');
@@ -179,16 +182,15 @@ export default function HeaderLinks(props) {
 						<MenuItem _hover={{ bg: 'none' }} _focus={{ bg: 'none' }} borderRadius="8px" px="14px">
 							<Text fontSize="sm">Profile Settings</Text>
 						</MenuItem>
-						<MenuItem _hover={{ bg: 'none' }} _focus={{ bg: 'none' }} borderRadius="8px" px="14px">
-							<Text fontSize="sm">Newsletter Settings</Text>
-						</MenuItem>
 						<MenuItem
 							_hover={{ bg: 'none' }}
 							_focus={{ bg: 'none' }}
 							color="red.400"
 							borderRadius="8px"
 							px="14px">
-							<Text fontSize="sm">Log out</Text>
+							<a className='nav-link' href='#!' onClick={logout}>
+								<Text fontSize="sm">Logout</Text>
+							</a>
 						</MenuItem>
 					</Flex>
 				</MenuList>
@@ -197,6 +199,11 @@ export default function HeaderLinks(props) {
 	);
 }
 
+const mapStateToProps = state => ({
+    isAuthenticated: state.auth.isAuthenticated
+}); 
+
+export default connect(mapStateToProps, { logout })(HeaderLinks);
 HeaderLinks.propTypes = {
 	variant: PropTypes.string,
 	fixed: PropTypes.bool,

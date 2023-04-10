@@ -18,7 +18,8 @@ import RTL from "views/admin/rtl";
 
 // Auth Imports
 import SignInCentered from "views/auth/signIn";
-
+import SignUp from "views/auth/signUp";
+import ResetPassword from "views/auth/reset"
 const routes = [
   {
     name: "Main Dashboard",
@@ -69,6 +70,18 @@ const routes = [
     path: "/rtl-default",
     icon: <Icon as={MdHome} width='20px' height='20px' color='inherit' />,
     component: RTL,
+  },
+  {
+    name: "Sign Up",
+    layout: "/auth",
+    path: "/sign-up",
+    component: SignUp,
+  },
+  {
+    name: "Reset Password",
+    layout: "/auth",
+    path: "/reset-password",
+    component: ResetPassword,
   },
 ];
 

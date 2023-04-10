@@ -14,6 +14,8 @@ from pathlib import Path
 import mongoengine
 from dotenv import load_dotenv
 import os
+import sys
+sys.path.append('../../accounts')
 
 
 load_dotenv()
@@ -50,6 +52,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'djoser',
+    'accounts',
+    'webpack_loader',
 ]
 
 MIDDLEWARE = [
@@ -93,7 +98,7 @@ WSGI_APPLICATION = 'pcd_back.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'djongo',
-        'NAME': db_name,
+        'NAME': "PCD",
         'CLIENT': {
                 #'host': 'mongodb+srv://{}:{}@{}/{}?retryWrites=true&w=majority'.format(db_username,db_password,db_host,db_name)
                 # 'host':'mongodb+srv://hafedhbenslama:sbtUmVILlZS6zg0m@cluster0.86ykp9h.mongodb.net/test?authSource=admin&replicaSet=atlas-unkzhf-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true'

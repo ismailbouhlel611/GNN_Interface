@@ -26,6 +26,7 @@ ReactDOM.render(
               <Route path='/reset-password' component={ResetPassword} />
               <Route exact path='/password/reset/confirm/:uid/:token' component={ResetPasswordConfirm} />
               <Route exact path='/activate/:uid/:token' component={Activate} />
+              <Redirect from='/' to='/admin' />
             </Switch>
           </HashRouter>
         </ThemeEditorProvider>

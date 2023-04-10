@@ -94,19 +94,19 @@ console.log(nodesData.label);
     export default function MyVisComponent(props){
       
       return(
-        <div></div>
-        // <div>
-    //       <Graph
-    //         graph={data}
-    //         options={options}
-    //         events={events}
-    //         // style={style}
-    //         // getNetwork={this.getNetwork}
-    //         // getEdges={this.getEdges}
-    //         // getNodes={this.getNodes}
-    //         // vis={vis => (this.vis = vis)}
-    // />
-        // </div>
+        // <div></div>
+        <div>
+          <Graph
+            graph={data}
+            options={options}
+            events={events}
+            // style={style}
+            // getNetwork={this.getNetwork}
+            // getEdges={this.getEdges}
+            // getNodes={this.getNodes}
+            // vis={vis => (this.vis = vis)}
+    />
+        </div>
       )
     }
   

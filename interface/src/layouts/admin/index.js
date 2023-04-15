@@ -161,7 +161,7 @@ const Dashboard=(props) => {
               pt='50px'>
               <Switch>
                 {getRoutes(routes)}
-                <Redirect from='/' to='/admin/default' />
+                <Redirect from='/admin' to='/admin/default' />
               </Switch>
             </Box>
           ) : null}

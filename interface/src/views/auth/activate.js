@@ -53,7 +53,7 @@ const Activate =({verify,match}) => {
         setVerified(true);
       };
     if (verified) {
-        return <Redirect to='/' />
+        return <Redirect to='/admin' />
     }
 
   return (

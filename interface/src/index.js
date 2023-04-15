@@ -2,6 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "assets/css/App.css";
 import { HashRouter, Route, Switch, Redirect, Router } from "react-router-dom";
+import { createBrowserHistory } from "history"; 
+
 import AuthLayout from "layouts/auth";
 import AdminLayout from "layouts/admin";
 import RTLLayout from "layouts/rtl";
@@ -13,12 +15,17 @@ import { Provider } from "react-redux";
 import ResetPasswordConfirm from './views/auth/resetconfirm';
 import ResetPassword from "./views/auth/reset";
 import Activate from "./views/auth/activate";
+import SignIn from "views/auth/signIn/index";
+import SignUp from "views/auth/signUp";
+
+const history = createBrowserHistory();
+
 ReactDOM.render(
   <Provider store={store}>
     <ChakraProvider theme={theme}>
       <React.StrictMode>
         <ThemeEditorProvider>
-          <HashRouter>
+          <Router history={history}>
             <Switch>
               <Route path={`/auth`} component={AuthLayout} />
               <Route path={`/admin`} component={AdminLayout} />
@@ -26,8 +33,10 @@ ReactDOM.render(
               <Route path='/reset-password' component={ResetPassword} />
               <Route exact path='/password/reset/confirm/:uid/:token' component={ResetPasswordConfirm} />
               <Route exact path='/activate/:uid/:token' component={Activate} />
+              <Route exact path={'/'} component={SignIn}/>
+              <Route exact path={'/sign-up'} component={SignUp}/>
             </Switch>
-          </HashRouter>
+          </Router>
         </ThemeEditorProvider>
       </React.StrictMode>
     </ChakraProvider>

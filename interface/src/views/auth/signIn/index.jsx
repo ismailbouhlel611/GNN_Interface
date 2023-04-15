@@ -60,7 +60,7 @@ const SignIn =({login,isAuthenticated}) => {
     };
 
     if (isAuthenticated===true) {
-      return <Redirect to='/' />
+      return <Redirect to='/admin' />
     }
 
   return (
@@ -223,7 +223,7 @@ const SignIn =({login,isAuthenticated}) => {
             mt='0px'>
             <Text color={textColorDetails} fontWeight='400' fontSize='14px'>
               Not registered yet?
-              <NavLink to='/auth/sign-up'>
+              <NavLink to='/sign-up'>
                 <Text
                   color={textColorBrand}
                   as='span'

@@ -65,10 +65,10 @@ const SignUp =({signup,isAuthenticated}) => {
       }
       };
     if (isAuthenticated) {
-        return <Redirect to='/' />
+        return <Redirect to='/admin' />
     }
     if (accountCreated){
-      return <Redirect to='/sign-in'/>
+      return <Redirect to='/'/>
     }
 
   return (

@@ -1,11 +1,15 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.shortcuts import render
-
+from rest_framework import permissions
+from rest_framework.permissions import IsAdminUser
+from rest_framework.views import APIView
+from rest_framework.response import Response
 from django.http.response import JsonResponse
 from rest_framework.parsers import JSONParser 
 from rest_framework import status
-
+from rest_framework.permissions import IsAdminUser
+from rest_framework.decorators import api_view, permission_classes
 from polls.models import Teacher
 from polls.serializers import TeacherSerializer
 from rest_framework.decorators import api_view
@@ -16,6 +20,7 @@ def index(request):
 
 
 @api_view(['GET', 'POST', 'DELETE'])
+@permission_classes([IsAdminUser])
 def teachers_list(request):
     # GET list of teachers, POST a new teacher, DELETE all tutorials
 
@@ -45,6 +50,7 @@ def teachers_list(request):
 
 
 @api_view(['GET', 'PUT', 'DELETE'])
+@permission_classes([IsAdminUser])
 def teacher_detail(request, pk):
     teacher = Teacher.objects.get(pk=pk)
  

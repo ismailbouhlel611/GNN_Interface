@@ -60,7 +60,10 @@ const SignIn =({login,isAuthenticated}) => {
     };
 
     if (isAuthenticated===true) {
-      return <Redirect to='/admin' />
+      return <Redirect to='/admin/default' />
+    }
+    else if(isAuthenticated===false){
+      alert("Please check the email an password")
     }
 
   return (
@@ -100,27 +103,8 @@ const SignIn =({login,isAuthenticated}) => {
           mx={{ base: "auto", lg: "unset" }}
           me='auto'
           mb={{ base: "20px", md: "auto" }}>
-          <Button
-            fontSize='sm'
-            me='0px'
-            mb='26px'
-            py='15px'
-            h='50px'
-            borderRadius='16px'
-            bg={googleBg}
-            color={googleText}
-            fontWeight='500'
-            _hover={googleHover}
-            _active={googleActive}
-            _focus={googleActive}>
-            <Icon as={FcGoogle} w='20px' h='20px' me='10px' />
-            Sign in with Google
-          </Button>
           <Flex align='center' mb='25px'>
             <HSeparator />
-            <Text color='gray.400' mx='14px'>
-              or
-            </Text>
             <HSeparator />
           </Flex>
           <FormControl onSubmit={e => onSubmit(e)}>
@@ -221,7 +205,7 @@ const SignIn =({login,isAuthenticated}) => {
             alignItems='start'
             maxW='100%'
             mt='0px'>
-            <Text color={textColorDetails} fontWeight='400' fontSize='14px'>
+            {/* <Text color={textColorDetails} fontWeight='400' fontSize='14px'>
               Not registered yet?
               <NavLink to='/sign-up'>
                 <Text
@@ -232,7 +216,7 @@ const SignIn =({login,isAuthenticated}) => {
                   Create an Account
                 </Text>
               </NavLink>
-            </Text>
+            </Text> */}
           </Flex>
         </Flex>
       </Flex>

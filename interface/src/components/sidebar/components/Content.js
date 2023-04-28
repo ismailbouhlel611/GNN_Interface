@@ -5,6 +5,11 @@ import Brand from "components/sidebar/components/Brand";
 import Links from "components/sidebar/components/Links";
 import SidebarCard from "components/sidebar/components/SidebarCard";
 import React from "react";
+import {
+  MdPerson,
+} from "react-icons/md";
+import { Icon } from "@chakra-ui/react";
+import { Link } from "react-router-dom";
 
 // FUNCTIONS
 

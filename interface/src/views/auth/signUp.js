@@ -27,7 +27,7 @@ import { FcGoogle } from "react-icons/fc";
 import { MdOutlineRemoveRedEye } from "react-icons/md";
 import { RiEyeCloseLine } from "react-icons/ri";
 
-const SignUp =({signup,isAuthenticated}) => {
+const SignUp =({signup,isAdmin}) => {
   // Chakra color mode
   const textColor = useColorModeValue("navy.700", "white");
   const textColorSecondary = "gray.400";
@@ -64,11 +64,12 @@ const SignUp =({signup,isAuthenticated}) => {
           setAccountCreated(true);
       }
       };
-    if (isAuthenticated) {
-        return <Redirect to='/admin' />
-    }
+    if (!isAdmin){
+      alert("Your are not an admin")
+      return <Redirect to='/admin'/>
+    } 
     if (accountCreated){
-      return <Redirect to='/'/>
+      return <Redirect to='/admin'/>
     }
 
   return (
@@ -83,7 +84,7 @@ const SignUp =({signup,isAuthenticated}) => {
         justifyContent='center'
         mb={{ base: "30px", md: "60px" }}
         px={{ base: "25px", md: "0px" }}
-        mt={{ base: "40px", md: "14vh" }}
+        mt={{ base: "40px", md: "7vh" }}
         flexDirection='column'>
         <Box me='auto'>
           <Heading color={textColor} fontSize='36px' mb='10px'>
@@ -95,7 +96,7 @@ const SignUp =({signup,isAuthenticated}) => {
             color={textColorSecondary}
             fontWeight='400'
             fontSize='md'>
-            Enter your credentials to sign un!
+            Enter Teacher credentials to sign him up!
           </Text>
         </Box>
         <Flex
@@ -271,7 +272,7 @@ const SignUp =({signup,isAuthenticated}) => {
   );
 };
 const mapStateToProps = state => ({
-  isAuthenticated: state.auth.isAuthenticated
+  isAdmin: state.auth.isAdmin
 });
 
 export default connect(mapStateToProps, { signup })(SignUp);

@@ -4,6 +4,8 @@ import {
     LOGIN_FAIL,
     USER_LOADED_SUCCESS,
     USER_LOADED_FAIL,
+    ADMIN_LOADED_SUCCESS,
+    ADMIN_LOADED_FAIL,
     AUTHENTICATED_SUCCESS,
     AUTHENTICATED_FAIL,
     SIGNUP_SUCCESS,
@@ -27,7 +29,6 @@ export const checkAuthenticated = () => async dispatch => {
         }; 
 
         const body = JSON.stringify({ token: localStorage.getItem('access') });
-        console.log(body);
         try {
             const res = await axios.post(`${process.env.REACT_APP_API_URL}/auth/jwt/verify/`, body, config)
 
@@ -36,13 +37,11 @@ export const checkAuthenticated = () => async dispatch => {
                     type: AUTHENTICATED_SUCCESS
                 });
             } else {
-                console.log("token not vzlid");
                 dispatch({
                     type: AUTHENTICATED_FAIL
                 });
             }
         } catch (err) {
-            console.log("something else ");
             dispatch({
                 type: AUTHENTICATED_FAIL
             });
@@ -67,11 +66,22 @@ export const load_user = () => async dispatch => {
 
         try {
             const res = await axios.get(`${process.env.REACT_APP_API_URL}/auth/users/me/`, config);
+            const user = res.data;
     
             dispatch({
                 type: USER_LOADED_SUCCESS,
-                payload: res.data
+                payload: user
             });
+            console.log(user)
+            if (user.is_superuser) {
+                dispatch({
+                    type: ADMIN_LOADED_SUCCESS
+                });
+            } else {
+                dispatch({
+                    type: ADMIN_LOADED_FAIL
+                });
+            }
         } catch (err) {
             dispatch({
                 type: USER_LOADED_FAIL

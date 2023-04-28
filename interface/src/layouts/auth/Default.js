@@ -7,11 +7,10 @@ import FixedPlugin from "components/fixedPlugin/FixedPlugin";
 // Custom components
 import { NavLink } from "react-router-dom";
 // Assets
-import { FaChevronLeft } from "react-icons/fa";
+
 
 function AuthIllustration(props) {
   const { children, illustrationBackground } = props;
-  // Chakra color mode
   return (
     <Flex position='relative' h='max-content'>
       <Flex
@@ -40,16 +39,6 @@ function AuthIllustration(props) {
             ps={{ base: "25px", lg: "0px" }}
             pt={{ lg: "0px", xl: "0px" }}
             w='fit-content'>
-            <Icon
-              as={FaChevronLeft}
-              me='12px'
-              h='13px'
-              w='8px'
-              color='secondaryGray.600'
-            />
-            <Text ms='0px' fontSize='sm' color='secondaryGray.600'>
-              Back to Simmmple
-            </Text>
           </Flex>
         </NavLink>
         {children}

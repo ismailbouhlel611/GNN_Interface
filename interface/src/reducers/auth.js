@@ -14,12 +14,15 @@ import {
     PASSWORD_RESET_CONFIRM_SUCCESS,
     PASSWORD_RESET_CONFIRM_FAIL,
     LOGOUT,
+    ADMIN_LOADED_SUCCESS,
+    ADMIN_LOADED_FAIL,
 } from '../actions/types';
 
 const initialState={
     access:localStorage.getItem('access'),
     refresh:localStorage.getItem('refresh'),
     isAuthenticated:null,
+    isAdmin:null,
     user:null
 };
 
@@ -27,6 +30,16 @@ export default function(state = initialState,action){
     const {type,payload} = action;
 
     switch(type){
+        case ADMIN_LOADED_SUCCESS:
+            return{
+                ...state,
+                isAdmin:true
+            }
+        case ADMIN_LOADED_FAIL:
+            return{
+                ...state,
+                isAdmin:false
+            }
         case AUTHENTICATED_SUCCESS:
             return{
                 ...state,

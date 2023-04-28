@@ -26,7 +26,7 @@ const Auth = (props) => {
       if (prop.layout === "/auth") {
         return (
           <Route
-            path={prop.layout + prop.path}
+            path={prop.layout+prop.path}
             component={prop.component}
             key={key}
           />
@@ -68,7 +68,7 @@ const Auth = (props) => {
                 {getRoutes(routes)}
                 <Redirect
                   from='/auth'
-                  to='/auth/sign-in/default
+                  to='/auth/sign-up
                   '
                 />
               </Switch>

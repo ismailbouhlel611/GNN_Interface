@@ -53,8 +53,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'djoser',
-    'accounts',
-    'webpack_loader',
+    # 'accounts',
+    # 'webpack_loader',
 ]
 
 MIDDLEWARE = [
@@ -100,7 +100,7 @@ DATABASES = {
         'ENGINE': 'djongo',
         'NAME': "PCD",
         'CLIENT': {
-                #'host': 'mongodb+srv://{}:{}@{}/{}?retryWrites=true&w=majority'.format(db_username,db_password,db_host,db_name)
+                # 'host': 'mongodb+srv://{}:{}@{}/{}?retryWrites=true&w=majority'.format(db_username,db_password,db_host,db_name)
                 # 'host':'mongodb+srv://hafedhbenslama:sbtUmVILlZS6zg0m@cluster0.86ykp9h.mongodb.net/test?authSource=admin&replicaSet=atlas-unkzhf-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true'
                 'host':'mongodb+srv://hafedhbenslama:sbtUmVILlZS6zg0m@cluster0.86ykp9h.mongodb.net/?retryWrites=true&w=majority'
             }

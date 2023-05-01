@@ -1,20 +1,11 @@
-import vis from 'vis';
-import React, { useState, useEffect } from 'react';
-import { DataSet } from 'vis-data';
-import { Network } from 'vis-network';
+import React from 'react';
 import './Graph.css';
 import nodesData from './nodes22.json';
 import edgesData from './edges.json';
-// import Graph from 'vis-react';
-console.log(nodesData.label);
+import Graph from 'vis-eact';
 
-
-  // ... component code here ...
-
-    // create a new network instance
     var nodes = nodesData;
     var edges = edgesData;
-    const container = document.getElementById('mynetwork');
     const data = {
       nodes: nodes,
       edges: edges
@@ -94,8 +85,8 @@ console.log(nodesData.label);
     export default function MyVisComponent(props){
       
       return(
-        // <div></div>
-        <div>
+        
+        <div className='mynetwork' >
           <Graph
             graph={data}
             options={options}

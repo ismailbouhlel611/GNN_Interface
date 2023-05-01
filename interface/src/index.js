@@ -17,7 +17,7 @@ import ResetPassword from "./views/auth/reset";
 import Activate from "./views/auth/activate";
 import SignIn from "views/auth/signIn/index";
 import SignUp from "views/auth/signUp";
-
+import UserList from "views/admin/ListUser"
 const history = createBrowserHistory();
 
 ReactDOM.render(
@@ -35,6 +35,7 @@ ReactDOM.render(
               <Route exact path='/activate/:uid/:token' component={Activate} />
               <Route exact path={'/'} component={SignIn}/>
               <Route exact path={'/sign-up'} component={SignUp}/>
+              <Route exact path={'/list-users'} component={UserList}/>
             </Switch>
           </Router>
         </ThemeEditorProvider>

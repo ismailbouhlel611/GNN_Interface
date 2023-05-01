@@ -17,8 +17,21 @@ import {
     PASSWORD_RESET_CONFIRM_SUCCESS,
     PASSWORD_RESET_CONFIRM_FAIL,
     LOGOUT,
+    GET_ALL_USERS_SUCCESS,
 } from './types';
 
+export const getAllUsers = () => async dispatch => {
+    try {
+      const res = await axios.get(`http://127.0.0.1:8000/users/`);
+      dispatch({
+        type: GET_ALL_USERS_SUCCESS,
+        payload: res.data
+      });
+    } catch (err) {
+      console.log(err);
+    }
+  };
+  
 export const checkAuthenticated = () => async dispatch => {
     if (localStorage.getItem('access')) {
         const config = {

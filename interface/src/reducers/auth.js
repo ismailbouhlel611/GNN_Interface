@@ -16,6 +16,7 @@ import {
     LOGOUT,
     ADMIN_LOADED_SUCCESS,
     ADMIN_LOADED_FAIL,
+    GET_ALL_USERS_SUCCESS,
 } from '../actions/types';
 
 const initialState={
@@ -23,13 +24,19 @@ const initialState={
     refresh:localStorage.getItem('refresh'),
     isAuthenticated:null,
     isAdmin:null,
-    user:null
+    user:null,
+    users:[]
 };
 
 export default function(state = initialState,action){
     const {type,payload} = action;
 
     switch(type){
+        case GET_ALL_USERS_SUCCESS:
+            return{
+                ...state,
+                users: payload,
+            }
         case ADMIN_LOADED_SUCCESS:
             return{
                 ...state,

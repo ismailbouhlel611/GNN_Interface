@@ -1,178 +1,189 @@
-/*!
-  _   _  ___  ____  ___ ________  _   _   _   _ ___   
- | | | |/ _ \|  _ \|_ _|__  / _ \| \ | | | | | |_ _| 
- | |_| | | | | |_) || |  / / | | |  \| | | | | || | 
- |  _  | |_| |  _ < | | / /| |_| | |\  | | |_| || |
- |_| |_|\___/|_| \_\___/____\___/|_| \_|  \___/|___|
-                                                                                                                                                                                                                                                                                                                                       
-=========================================================
-* Horizon UI - v1.1.0
-=========================================================
-
-* Product Page: https://www.horizon-ui.com/
-* Copyright 2022 Horizon UI (https://www.horizon-ui.com/)
-
-* Designed and Coded by Simmmple
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
-
-// Chakra imports
-import {
-  // Avatar,
-  Box,
-  // Flex,
-  // FormLabel,
-  // Icon,
-  // Select,
-  // SimpleGrid,
-  useColorModeValue,
-} from "@chakra-ui/react";
-// Assets
-// import Usa from "assets/img/dashboards/usa.png";
-// // Custom components
-// import MiniCalendar from "components/calendar/MiniCalendar";
-// import MiniStatistics from "components/card/MiniStatistics";
-// import IconBox from "components/icons/IconBox";
-// import React from "react";
-// import {
-//   MdAddTask,
-//   MdAttachMoney,
-//   MdBarChart,
-//   MdFileCopy,
-// } from "react-icons/md";
-// import CheckTable from "views/admin/default/components/CheckTable";
-// import ComplexTable from "views/admin/default/components/ComplexTable";
-// import DailyTraffic from "views/admin/default/components/DailyTraffic";
-// import PieCard from "views/admin/default/components/PieCard";
-// import Tasks from "views/admin/default/components/Tasks";
-// import TotalSpent from "views/admin/default/components/TotalSpent";
-// import WeeklyRevenue from "views/admin/default/components/WeeklyRevenue";
-// import {
-//   columnsDataCheck,
-//   columnsDataComplex,
-// } from "views/admin/default/variables/columnsData";
-// import tableDataCheck from "views/admin/default/variables/tableDataCheck.json";
-// import tableDataComplex from "views/admin/default/variables/tableDataComplex.json";
-import MyVisComponent  from './components/Graph';
+import { Box, useColorModeValue, Button } from "@chakra-ui/react";
+import MyVisComponent from './components/Graph';
+import React, { useState } from "react";
 import './index.css';
-
+import * as d3 from 'd3';
+import {
+	Text,
+} from '@chakra-ui/react';
+import data2 from './data_2_clusters.json';
+import data3 from './data_3_clusters.json';
+import data4 from './data_4_clusters.json';
+import data5 from './data_5_clusters.json';
 export default function UserReports() {
   // Chakra Color Mode
   const brandColor = useColorModeValue("brand.500", "white");
   const boxBg = useColorModeValue("secondaryGray.300", "whiteAlpha.100");
-  
-  return (
-    // <Box pt={{ base: "1300px", md: "800px", xl: "80px" }}>
-      <div className="graph_container ">
-      <MyVisComponent  />
-     </div>
-      /* <SimpleGrid
-        columns={{ base: 1, md: 2, lg: 3, "2xl": 6 }}
-        gap='20px'
-        mb='20px'>
-        <MiniStatistics
-          startContent={
-            <IconBox
-              w='56px'
-              h='56px'
-              bg={boxBg}
-              icon={
-                <Icon w='32px' h='32px' as={MdBarChart} color={brandColor} />
-              }
-            />
-          }
-          name='Earnings'
-          value='$350.4'
-        />
-        <MiniStatistics
-          startContent={
-            <IconBox
-              w='56px'
-              h='56px'
-              bg={boxBg}
-              icon={
-                <Icon w='32px' h='32px' as={MdAttachMoney} color={brandColor} />
-              }
-            />
-          }
-          name='Spend this month'
-          value='$642.39'
-        />
-        <MiniStatistics growth='+23%' name='Sales' value='$574.34' />
-        <MiniStatistics
-          endContent={
-            <Flex me='-16px' mt='10px'>
-              <FormLabel htmlFor='balance'>
-                <Avatar src={Usa} />
-              </FormLabel>
-              <Select
-                id='balance'
-                variant='mini'
-                mt='5px'
-                me='0px'
-                defaultValue='usd'>
-                <option value='usd'>USD</option>
-                <option value='eur'>EUR</option>
-                <option value='gba'>GBA</option>
-              </Select>
-            </Flex>
-          }
-          name='Your balance'
-          value='$1,000'
-        />
-        <MiniStatistics
-          startContent={
-            <IconBox
-              w='56px'
-              h='56px'
-              bg='linear-gradient(90deg, #4481EB 0%, #04BEFE 100%)'
-              icon={<Icon w='28px' h='28px' as={MdAddTask} color='white' />}
-            />
-          }
-          name='New Tasks'
-          value='154'
-        />
-        <MiniStatistics
-          startContent={
-            <IconBox
-              w='56px'
-              h='56px'
-              bg={boxBg}
-              icon={
-                <Icon w='32px' h='32px' as={MdFileCopy} color={brandColor} />
-              }
-            />
-          }
-          name='Total Projects'
-          value='2935'
-        />
-      </SimpleGrid>
+	const textColor = useColorModeValue('secondaryGray.900', 'white');
+	let menuBg = useColorModeValue('white', 'navy.800');
+  const borderColor = useColorModeValue('#E6ECFA', 'rgba(135, 140, 189, 0.3)');
+  const shadow = useColorModeValue(
+		'14px 17px 40px 4px rgba(112, 144, 176, 0.18)',
+		'14px 17px 40px 4px rgba(112, 144, 176, 0.06)'
+	);
+  const [numberOfClusters, setNumberOfClusters] = useState("3");
+  const [group, setGroup] = useState("");
+  const [level, setLevel] = useState("");
+  const [specialization, setSpecialization] = useState("");
+  const [buttonClicked, setButtonClicked] = useState(false);
+  const [myProp, setMyProp] = useState();
 
-      <SimpleGrid columns={{ base: 1, md: 2, xl: 2 }} gap='20px' mb='20px'>
-        <TotalSpent />
-        <WeeklyRevenue />
-      </SimpleGrid>
-      <SimpleGrid columns={{ base: 1, md: 1, xl: 2 }} gap='20px' mb='20px'>
-        <CheckTable columnsData={columnsDataCheck} tableData={tableDataCheck} />
-        <SimpleGrid columns={{ base: 1, md: 2, xl: 2 }} gap='20px'>
-          <DailyTraffic />
-          <PieCard />
-        </SimpleGrid>
-      </SimpleGrid>
-      <SimpleGrid columns={{ base: 1, md: 1, xl: 2 }} gap='20px' mb='20px'>
-        <ComplexTable
-          columnsData={columnsDataComplex}
-          tableData={tableDataComplex}
-        />
-        <SimpleGrid columns={{ base: 1, md: 2, xl: 2 }} gap='20px'>
-          <Tasks />
-          <MiniCalendar h='100%' minW='100%' selectRange={false} />
-        </SimpleGrid>
-      </SimpleGrid> */
-    // </Box>
+  const handleClick = (propValue) => {
+    setMyProp(propValue);
+    setButtonClicked(true);
+  };
+
+  const handleIIButtonClick = (value) => {
+    setLevel(value)
+  };
+
+  const handleGroupButtonClick = (value) => {
+    setGroup(value)
+    setSpecialization('')
+  };
+
+  const handleSpesButtonClick = (value) => {
+    setGroup('')
+    setSpecialization(value)
+  };
+
+  const handleNumClustersChange = (value) => {
+    setNumberOfClusters(value);
+  };
+
+  let data;
+  if (numberOfClusters === "2") {
+    data = data2
+  } else if (numberOfClusters === "3") {
+    data = data3
+  } else if (numberOfClusters === "4") {
+    data = data4
+  } else {
+    data = data5
+  }
+
+  function filterDataByCriteria(data, group, level, specialization) {
+    return data.filter(d => (d.Group === group && d.Level === level) || (d.Major === specialization && d.Level === level));
+  }
+  
+  const filteredData = filterDataByCriteria(data, group, level, specialization);
+
+  const groupedData = d3.group(filteredData, d => d['Kmeans labels']);
+  console.log(groupedData)
+  return (
+    <>
+    <div className="graph_container">
+    {/* {buttonClicked && <MyVisComponent myProp={myProp} />}
+    {!buttonClicked && <MyVisComponent />} */}
+    {buttonClicked && <MyVisComponent myProp={myProp} />}
+    </div>
+    <div style={{marginTop:'20px' ,display: 'grid', gridTemplateColumns: 'repeat(1, 3fr)', gridGap: '15px', marginLeft:'400px'}}>
+    <Box mb={4} >
+    <Text fontSize="md" fontWeight="600" color={textColor}>
+							Level :
+              <br/>
+		</Text>
+    <Button mr={2} style={{backgroundColor:'#11047A'}} onClick={() => handleIIButtonClick('II1')}>
+      II1
+    </Button>
+    <Button mr={2} style={{backgroundColor:'#11047A'}} onClick={() => handleIIButtonClick('II2')}>
+      II2
+    </Button>
+    <Button mr={2} style={{backgroundColor:'#11047A'}} onClick={() => handleIIButtonClick('II3')}>
+      II3
+    </Button>
+  </Box>
+  <Box mb={4}>
+  <Text fontSize="md" fontWeight="600" color={textColor}>
+							Group :
+              <br/>
+		</Text>
+    <Button mr={2} style={{backgroundColor:'#11047A'}} onClick={() => handleGroupButtonClick('A')}>
+      A
+    </Button>
+    <Button mr={2} style={{backgroundColor:'#11047A'}} onClick={() => handleGroupButtonClick('B')}>
+      B
+    </Button>
+    <Button mr={2} style={{backgroundColor:'#11047A'}} onClick={() => handleGroupButtonClick('C')}>
+      C
+    </Button>
+    <Button mr={2} style={{backgroundColor:'#11047A'}} onClick={() => handleGroupButtonClick('D')}>
+      D
+    </Button>
+    <Button mr={2} style={{backgroundColor:'#11047A'}} onClick={() => handleGroupButtonClick('E')}>
+      E
+    </Button>
+    <Button mr={2} style={{backgroundColor:'#11047A'}} onClick={() => handleGroupButtonClick('F')}>
+      F
+    </Button>
+  </Box>
+  {level !== "II1" ? (
+  <Box mb={4}>
+  <Text fontSize="md" fontWeight="600" color={textColor}>
+              Specialization :
+              <br/>
+		</Text>
+    {level === "II2" ? (
+  <>
+    <Button mr={2} style={{backgroundColor:'#11047A'}} onClick={() => handleSpesButtonClick('GL1')}>
+      GL1
+    </Button>
+    <Button mr={2} style={{backgroundColor:'#11047A'}} onClick={() => handleSpesButtonClick('GL2')}>
+      GL2
+    </Button>
+  </>
+) : null}
+  {level === "II3" ? (
+  <>
+    <Button mr={2} style={{backgroundColor:'#11047A'}} onClick={() => handleSpesButtonClick('GL')}>
+      GL
+    </Button>
+  </>
+) : null}
+
+    <Button mr={2} style={{backgroundColor:'#11047A'}} onClick={() => handleSpesButtonClick('IA')}>
+    IA
+    </Button>
+    <Button mr={2} style={{backgroundColor:'#11047A'}} onClick={() => handleSpesButtonClick('ST-IOT')}>
+    ST-IOT
+    </Button>
+    <Button mr={2} style={{backgroundColor:'#11047A'}} onClick={() => handleSpesButtonClick('SLE')}>
+    SLE
+    </Button>
+    <Button mr={2} style={{backgroundColor:'#11047A'}} onClick={() => handleSpesButtonClick('IF')}>
+    IF
+    </Button>
+    <Button mr={2} style={{backgroundColor:'#11047A'}} onClick={() => handleSpesButtonClick('DS-CV')}>
+    DS-CV
+    </Button>
+  </Box>
+) : null}
+  
+  <Box mb={4}>
+  <Text fontSize="md" fontWeight="600" color={textColor}>
+							Number of clusters :
+              <br/>
+		</Text>
+  <Button mr={2} style={{backgroundColor:'#11047A'}} onClick={() =>handleNumClustersChange(2)}>
+      2
+    </Button>
+    <Button mr={2} style={{backgroundColor:'#11047A'}} onClick={() =>handleNumClustersChange('3')}>
+      3
+    </Button>
+    <Button mr={2} style={{backgroundColor:'#11047A'}} onClick={() =>handleNumClustersChange('4')}>
+      4
+    </Button>
+    <Button mr={2} style={{backgroundColor:'#11047A'}} onClick={() =>handleNumClustersChange('5')}>
+      5
+    </Button>
+  </Box>
+  <Box mb={4}>
+  
+  <Button mr={2} style={{backgroundColor:'#11047A'}} onClick={() => handleClick(groupedData)}>
+      Render the graph
+  </Button>
+  </Box>
+  </div>
+    </>
   );
 }

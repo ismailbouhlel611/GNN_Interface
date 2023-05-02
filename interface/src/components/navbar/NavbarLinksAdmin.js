@@ -188,7 +188,7 @@ const HeaderLinks=(props,{logout, isAuthenticated}) => {
 							color="red.400"
 							borderRadius="8px"
 							px="14px">
-							<a className='nav-link' href='#!' onClick={logout}>
+							<a className='nav-link' href='/' onClick={logout}>
 								<Text fontSize="sm">Logout</Text>
 							</a>
 						</MenuItem>

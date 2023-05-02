@@ -1,0 +1,1698 @@
+[
+ {
+   "FIELD1": 0,
+   "Full name": "Boujelben Med Amine ",
+   "Level": "II1",
+   "Group": "B",
+   "Major": "nan",
+   "Kmeans labels": 2
+ },
+ {
+   "FIELD1": 1,
+   "Full name": "Founi Marwa ",
+   "Level": "II1",
+   "Group": "B",
+   "Major": "nan",
+   "Kmeans labels": 2
+ },
+ {
+   "FIELD1": 2,
+   "Full name": "Chiheb Eddine Saidi",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "ST-IOT",
+   "Kmeans labels": 2
+ },
+ {
+   "FIELD1": 3,
+   "Full name": "Oumaima guesmi",
+   "Level": "II1",
+   "Group": "E",
+   "Major": "nan",
+   "Kmeans labels": 2
+ },
+ {
+   "FIELD1": 4,
+   "Full name": "İchrak sliti",
+   "Level": "II2",
+   "Group": "B",
+   "Major": "IA",
+   "Kmeans labels": 2
+ },
+ {
+   "FIELD1": 5,
+   "Full name": "Maram gabsi",
+   "Level": "II1",
+   "Group": "D",
+   "Major": "nan",
+   "Kmeans labels": 2
+ },
+ {
+   "FIELD1": 6,
+   "Full name": "Ramma wadie",
+   "Level": "II1",
+   "Group": "F",
+   "Major": "nan",
+   "Kmeans labels": 2
+ },
+ {
+   "FIELD1": 7,
+   "Full name": "Ayoub Hlaili ",
+   "Level": "II1",
+   "Group": "D",
+   "Major": "nan",
+   "Kmeans labels": 2
+ },
+ {
+   "FIELD1": 8,
+   "Full name": "Saif eddine Bouaziz",
+   "Level": "II2",
+   "Group": "C",
+   "Major": "IF",
+   "Kmeans labels": 2
+ },
+ {
+   "FIELD1": 9,
+   "Full name": "Farah Hachicha ",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "GL",
+   "Kmeans labels": 2
+ },
+ {
+   "FIELD1": 10,
+   "Full name": "ismail bouhlel",
+   "Level": "II2",
+   "Group": "D",
+   "Major": "IA",
+   "Kmeans labels": 2
+ },
+ {
+   "FIELD1": 11,
+   "Full name": "Mahmoud Khemakhem",
+   "Level": "II2",
+   "Group": "C",
+   "Major": "IA",
+   "Kmeans labels": 2
+ },
+ {
+   "FIELD1": 12,
+   "Full name": "Ghaissen sebai",
+   "Level": "II1",
+   "Group": "D",
+   "Major": "nan",
+   "Kmeans labels": 2
+ },
+ {
+   "FIELD1": 13,
+   "Full name": "Abdelaziz kacem",
+   "Level": "II1",
+   "Group": "A",
+   "Major": "nan",
+   "Kmeans labels": 2
+ },
+ {
+   "FIELD1": 14,
+   "Full name": "Fantar Raed",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "ST-IOT",
+   "Kmeans labels": 2
+ },
+ {
+   "FIELD1": 15,
+   "Full name": "Mensi Omar",
+   "Level": "II1",
+   "Group": "C",
+   "Major": "nan",
+   "Kmeans labels": 2
+ },
+ {
+   "FIELD1": 16,
+   "Full name": "Amani ben Ahmed ",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "GL",
+   "Kmeans labels": 2
+ },
+ {
+   "FIELD1": 17,
+   "Full name": "Mouna hachicha",
+   "Level": "II1",
+   "Group": "F",
+   "Major": "nan",
+   "Kmeans labels": 2
+ },
+ {
+   "FIELD1": 18,
+   "Full name": "Farah chaouachi ",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "GL",
+   "Kmeans labels": 2
+ },
+ {
+   "FIELD1": 19,
+   "Full name": "eya methnani",
+   "Level": "II1",
+   "Group": "D",
+   "Major": "nan",
+   "Kmeans labels": 2
+ },
+ {
+   "FIELD1": 20,
+   "Full name": "amal toumi",
+   "Level": "II1",
+   "Group": "A",
+   "Major": "nan",
+   "Kmeans labels": 2
+ },
+ {
+   "FIELD1": 21,
+   "Full name": "Asma wassar",
+   "Level": "II2",
+   "Group": "B",
+   "Major": "GL2",
+   "Kmeans labels": 2
+ },
+ {
+   "FIELD1": 22,
+   "Full name": "Abir Ghazel",
+   "Level": "II2",
+   "Group": "C",
+   "Major": "IA",
+   "Kmeans labels": 2
+ },
+ {
+   "FIELD1": 23,
+   "Full name": "Ikram Dridi ",
+   "Level": "II1",
+   "Group": "F",
+   "Major": "nan",
+   "Kmeans labels": 2
+ },
+ {
+   "FIELD1": 24,
+   "Full name": "Wiem hajji",
+   "Level": "II1",
+   "Group": "E",
+   "Major": "nan",
+   "Kmeans labels": 2
+ },
+ {
+   "FIELD1": 25,
+   "Full name": "Hana Benmoussa ",
+   "Level": "II2",
+   "Group": "A",
+   "Major": "GL1",
+   "Kmeans labels": 2
+ },
+ {
+   "FIELD1": 26,
+   "Full name": "Rezgui Ahmed Aziz",
+   "Level": "II1",
+   "Group": "E",
+   "Major": "nan",
+   "Kmeans labels": 1
+ },
+ {
+   "FIELD1": 27,
+   "Full name": "Arij chafter",
+   "Level": "II2",
+   "Group": "D",
+   "Major": "IF",
+   "Kmeans labels": 1
+ },
+ {
+   "FIELD1": 28,
+   "Full name": "Guesmi Ghassen",
+   "Level": "II1",
+   "Group": "F",
+   "Major": "nan",
+   "Kmeans labels": 2
+ },
+ {
+   "FIELD1": 29,
+   "Full name": "Abir affes",
+   "Level": "II1",
+   "Group": "F",
+   "Major": "nan",
+   "Kmeans labels": 2
+ },
+ {
+   "FIELD1": 30,
+   "Full name": "Moetez Bouhlel",
+   "Level": "II2",
+   "Group": "D",
+   "Major": "IA",
+   "Kmeans labels": 2
+ },
+ {
+   "FIELD1": 31,
+   "Full name": "Ayachi Mayssa",
+   "Level": "II2",
+   "Group": "F",
+   "Major": "GL1",
+   "Kmeans labels": 1
+ },
+ {
+   "FIELD1": 32,
+   "Full name": "sahar heni",
+   "Level": "II1",
+   "Group": "A",
+   "Major": "nan",
+   "Kmeans labels": 1
+ },
+ {
+   "FIELD1": 33,
+   "Full name": "Emna Mkaouar",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "GL",
+   "Kmeans labels": 1
+ },
+ {
+   "FIELD1": 34,
+   "Full name": "Ayman Mkaouar ",
+   "Level": "II2",
+   "Group": "F",
+   "Major": "SLE",
+   "Kmeans labels": 1
+ },
+ {
+   "FIELD1": 35,
+   "Full name": "ichrak bouafif ",
+   "Level": "II1",
+   "Group": "F",
+   "Major": "nan",
+   "Kmeans labels": 1
+ },
+ {
+   "FIELD1": 36,
+   "Full name": "Zayneb samaali",
+   "Level": "II2",
+   "Group": "D",
+   "Major": "GL2",
+   "Kmeans labels": 1
+ },
+ {
+   "FIELD1": 37,
+   "Full name": "Wajdi hamdoun",
+   "Level": "II1",
+   "Group": "D",
+   "Major": "nan",
+   "Kmeans labels": 1
+ },
+ {
+   "FIELD1": 38,
+   "Full name": "Okba Hamdi",
+   "Level": "II2",
+   "Group": "D",
+   "Major": "ST-IOT",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 39,
+   "Full name": "Dhouha haj Taieb ",
+   "Level": "II2",
+   "Group": "F",
+   "Major": "GL1",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 40,
+   "Full name": "Sarra Boughriou",
+   "Level": "II2",
+   "Group": "D",
+   "Major": "GL2",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 41,
+   "Full name": "Mohamed karim jegham",
+   "Level": "II1",
+   "Group": "B",
+   "Major": "nan",
+   "Kmeans labels": 1
+ },
+ {
+   "FIELD1": 42,
+   "Full name": "Gammar Med Aziz",
+   "Level": "II2",
+   "Group": "E",
+   "Major": "ST-IOT",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 43,
+   "Full name": "Seif Eddine Abid Bouchoucha",
+   "Level": "II2",
+   "Group": "E",
+   "Major": "IA",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 44,
+   "Full name": "Imen Lakhal",
+   "Level": "II1",
+   "Group": "B",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 45,
+   "Full name": "Mohamed Aziz Noomen ",
+   "Level": "II2",
+   "Group": "A",
+   "Major": "IA",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 46,
+   "Full name": "ikram jammoussi",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "ST-IOT",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 47,
+   "Full name": "Kais Baccour",
+   "Level": "II2",
+   "Group": "D",
+   "Major": "GL2",
+   "Kmeans labels": 1
+ },
+ {
+   "FIELD1": 48,
+   "Full name": "molka chebbah",
+   "Level": "II2",
+   "Group": "D",
+   "Major": "IA",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 49,
+   "Full name": "Allala Mohamed Khayri",
+   "Level": "II2",
+   "Group": "C",
+   "Major": "IA",
+   "Kmeans labels": 1
+ },
+ {
+   "FIELD1": 50,
+   "Full name": "Yasmine khdhir",
+   "Level": "II2",
+   "Group": "C",
+   "Major": "SLE",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 51,
+   "Full name": "Achwek Mhenni",
+   "Level": "II2",
+   "Group": "D",
+   "Major": "ST-IOT",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 52,
+   "Full name": "Achraf JAMMOUSSI",
+   "Level": "II2",
+   "Group": "C",
+   "Major": "ST-IOT",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 53,
+   "Full name": "Sirine Meftah",
+   "Level": "II2",
+   "Group": "C",
+   "Major": "GL1",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 54,
+   "Full name": "syrine dkhil",
+   "Level": "II2",
+   "Group": "B",
+   "Major": "IA",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 55,
+   "Full name": "Mahdi ayadi",
+   "Level": "II2",
+   "Group": "E",
+   "Major": "IA",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 56,
+   "Full name": "Nehdi Taha Mustapha",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "DS-CV",
+   "Kmeans labels": 1
+ },
+ {
+   "FIELD1": 57,
+   "Full name": "frikha sultan",
+   "Level": "II1",
+   "Group": "B",
+   "Major": "nan",
+   "Kmeans labels": 1
+ },
+ {
+   "FIELD1": 58,
+   "Full name": "Yasmine HABCHI",
+   "Level": "II1",
+   "Group": "C",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 59,
+   "Full name": "youssef weslati",
+   "Level": "II2",
+   "Group": "F",
+   "Major": "ST-IOT",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 60,
+   "Full name": "Wiem Khlifi",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "IA",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 61,
+   "Full name": "Chiheb hmida",
+   "Level": "II2",
+   "Group": "D",
+   "Major": "SLE",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 62,
+   "Full name": "Hana Zouari",
+   "Level": "II2",
+   "Group": "F",
+   "Major": "GL1",
+   "Kmeans labels": 1
+ },
+ {
+   "FIELD1": 63,
+   "Full name": "Tasnim Mami",
+   "Level": "II2",
+   "Group": "B",
+   "Major": "GL2",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 64,
+   "Full name": "Boussandel nour elhouda",
+   "Level": "II2",
+   "Group": "C",
+   "Major": "ST-IOT",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 65,
+   "Full name": "Ayman ben amor",
+   "Level": "II1",
+   "Group": "A",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 66,
+   "Full name": "Layel hajji",
+   "Level": "II1",
+   "Group": "A",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 67,
+   "Full name": "Oumayma mallouli ",
+   "Level": "II1",
+   "Group": "B",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 68,
+   "Full name": "Wassim kharrat",
+   "Level": "II1",
+   "Group": "F",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 69,
+   "Full name": "Karim AMOURI",
+   "Level": "II2",
+   "Group": "D",
+   "Major": "IF",
+   "Kmeans labels": 1
+ },
+ {
+   "FIELD1": 70,
+   "Full name": "Salma Ghrabi",
+   "Level": "II1",
+   "Group": "D",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 71,
+   "Full name": "Emna Arous",
+   "Level": "II1",
+   "Group": "C",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 72,
+   "Full name": "Yosr Ghariani",
+   "Level": "II1",
+   "Group": "D",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 73,
+   "Full name": "Oueslati Med Anis",
+   "Level": "II1",
+   "Group": "C",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 74,
+   "Full name": "Selim Ketata",
+   "Level": "II1",
+   "Group": "A",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 75,
+   "Full name": "Malek Dinari",
+   "Level": "II2",
+   "Group": "D",
+   "Major": "DS-CV",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 76,
+   "Full name": "Kammoun mohamed amine ",
+   "Level": "II2",
+   "Group": "C",
+   "Major": "GL2",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 77,
+   "Full name": "Nada akkari ",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "DS-CV",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 78,
+   "Full name": "dalel bouallegue",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "IF",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 79,
+   "Full name": "Siwar Bennour ",
+   "Level": "II1",
+   "Group": "A",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 80,
+   "Full name": "Fadi khalfaoui",
+   "Level": "II1",
+   "Group": "B",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 81,
+   "Full name": "Chadha Salem",
+   "Level": "II1",
+   "Group": "E",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 82,
+   "Full name": "jamel boulaabi",
+   "Level": "II2",
+   "Group": "A",
+   "Major": "IF",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 83,
+   "Full name": "firas necib",
+   "Level": "II2",
+   "Group": "D",
+   "Major": "SLE",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 84,
+   "Full name": "ellouze sami",
+   "Level": "II2",
+   "Group": "A",
+   "Major": "IF",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 85,
+   "Full name": "ines jemmali",
+   "Level": "II2",
+   "Group": "F",
+   "Major": "IA",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 86,
+   "Full name": "Mensi Oussema",
+   "Level": "II2",
+   "Group": "C",
+   "Major": "SLE",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 87,
+   "Full name": "Benhjel mehdi ",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "IF",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 88,
+   "Full name": "hatem dridi",
+   "Level": "II2",
+   "Group": "F",
+   "Major": "SLE",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 89,
+   "Full name": "Yessine zghal",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "ST-IOT",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 90,
+   "Full name": "Slimen Eya ",
+   "Level": "II1",
+   "Group": "A",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 91,
+   "Full name": "ben amor yessin ",
+   "Level": "II1",
+   "Group": "F",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 92,
+   "Full name": "Nizar karkar ",
+   "Level": "II2",
+   "Group": "F",
+   "Major": "ST-IOT",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 93,
+   "Full name": "Jaoua sirine ",
+   "Level": "II2",
+   "Group": "B",
+   "Major": "GL2",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 94,
+   "Full name": "Ati Imededin",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "ST-IOT",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 95,
+   "Full name": "Rahali dhia eddine",
+   "Level": "II1",
+   "Group": "E",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 96,
+   "Full name": "Rahma Rahali",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "SLE",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 97,
+   "Full name": "asma rami",
+   "Level": "II2",
+   "Group": "A",
+   "Major": "ST-IOT",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 98,
+   "Full name": "Mohamed Ali Dhouib ",
+   "Level": "II1",
+   "Group": "C",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 99,
+   "Full name": "aymen maskhi",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "GL",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 100,
+   "Full name": "Mkadem Ghofrane ",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "IF",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 101,
+   "Full name": "Wassim chouchene",
+   "Level": "II2",
+   "Group": "D",
+   "Major": "IA",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 102,
+   "Full name": "Youssef Errais",
+   "Level": "II2",
+   "Group": "A",
+   "Major": "SLE",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 103,
+   "Full name": "Boukchab dhia eddine",
+   "Level": "II1",
+   "Group": "C",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 104,
+   "Full name": "Ahmed Zribi",
+   "Level": "II2",
+   "Group": "C",
+   "Major": "ST-IOT",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 105,
+   "Full name": "Messadi saber",
+   "Level": "II2",
+   "Group": "F",
+   "Major": "ST-IOT",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 106,
+   "Full name": "aissaoui emna",
+   "Level": "II1",
+   "Group": "E",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 107,
+   "Full name": "narjes ben abdallah",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "IA",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 108,
+   "Full name": "Eya Khalfallah ",
+   "Level": "II1",
+   "Group": "A",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 109,
+   "Full name": "hiba nahdi",
+   "Level": "II2",
+   "Group": "F",
+   "Major": "GL1",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 110,
+   "Full name": "Mouadh  Fraj",
+   "Level": "II1",
+   "Group": "D",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 111,
+   "Full name": "fkiri ghazi",
+   "Level": "II1",
+   "Group": "F",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 112,
+   "Full name": "Omar Makni",
+   "Level": "II2",
+   "Group": "D",
+   "Major": "DS-CV",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 113,
+   "Full name": "amina massoud",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "DS-CV",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 114,
+   "Full name": "Salma bouaziz",
+   "Level": "II1",
+   "Group": "F",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 115,
+   "Full name": "Emna sallemi",
+   "Level": "II2",
+   "Group": "A",
+   "Major": "ST-IOT",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 116,
+   "Full name": "Mohamed Sellami",
+   "Level": "II2",
+   "Group": "C",
+   "Major": "GL1",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 117,
+   "Full name": "Farah Gharbi",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "IA",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 118,
+   "Full name": "Akrem ben mbarek",
+   "Level": "II2",
+   "Group": "B",
+   "Major": "SLE",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 119,
+   "Full name": "Yesmine hefyene",
+   "Level": "II2",
+   "Group": "C",
+   "Major": "GL1",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 120,
+   "Full name": "Ali Bouriga",
+   "Level": "II2",
+   "Group": "C",
+   "Major": "SLE",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 121,
+   "Full name": "nada OMRI",
+   "Level": "II1",
+   "Group": "F",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 122,
+   "Full name": "mohamed aziz kallel",
+   "Level": "II1",
+   "Group": "D",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 123,
+   "Full name": "Mouheb JEMAI",
+   "Level": "II2",
+   "Group": "D",
+   "Major": "IA",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 124,
+   "Full name": "Ben Hamida Bouthaina",
+   "Level": "II2",
+   "Group": "D",
+   "Major": "GL1",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 125,
+   "Full name": "Iheb ben salah",
+   "Level": "II2",
+   "Group": "F",
+   "Major": "SLE",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 126,
+   "Full name": "Besbes Aymen",
+   "Level": "II2",
+   "Group": "F",
+   "Major": "IA",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 127,
+   "Full name": "Dhieb tarak",
+   "Level": "II1",
+   "Group": "D",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 128,
+   "Full name": "Mariem Mehrez ",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "DS-CV",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 129,
+   "Full name": "Sta Ahmed",
+   "Level": "II2",
+   "Group": "D",
+   "Major": "DS-CV",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 130,
+   "Full name": "Zouhour berraies ",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "IA",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 131,
+   "Full name": "houyeme nouali",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "DS-CV",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 132,
+   "Full name": "Mahdi Khrifech",
+   "Level": "II2",
+   "Group": "C",
+   "Major": "IA",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 133,
+   "Full name": "Bouallegue Mohamed Ghassen",
+   "Level": "II1",
+   "Group": "D",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 134,
+   "Full name": "Majd Bougares",
+   "Level": "II1",
+   "Group": "F",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 135,
+   "Full name": "Eya Harbaoui",
+   "Level": "II2",
+   "Group": "F",
+   "Major": "IA",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 136,
+   "Full name": "Ahmed cherif",
+   "Level": "II2",
+   "Group": "F",
+   "Major": "SLE",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 137,
+   "Full name": "khadija trabelsi",
+   "Level": "II1",
+   "Group": "D",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 138,
+   "Full name": "Khalil Thabet",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "SLE",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 139,
+   "Full name": "Nouha fersi",
+   "Level": "II2",
+   "Group": "E",
+   "Major": "ST-IOT",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 140,
+   "Full name": "Houssem Amine Touihri",
+   "Level": "II2",
+   "Group": "F",
+   "Major": "IA",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 141,
+   "Full name": "hafedh ben slama",
+   "Level": "II2",
+   "Group": "D",
+   "Major": "ST-IOT",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 142,
+   "Full name": "rami abbes",
+   "Level": "II1",
+   "Group": "A",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 143,
+   "Full name": "mahdi makhlouf",
+   "Level": "II1",
+   "Group": "E",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 144,
+   "Full name": "ali ben salem",
+   "Level": "II1",
+   "Group": "F",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 145,
+   "Full name": "ali cherni",
+   "Level": "II1",
+   "Group": "E",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 146,
+   "Full name": "mahdi ammar",
+   "Level": "II1",
+   "Group": "C",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 147,
+   "Full name": "sabri arfaoui",
+   "Level": "II1",
+   "Group": "C",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 148,
+   "Full name": "ali cherni",
+   "Level": "II1",
+   "Group": "B",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 149,
+   "Full name": "mohamed ben salah",
+   "Level": "II1",
+   "Group": "D",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 150,
+   "Full name": "kais abidi",
+   "Level": "II1",
+   "Group": "D",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 151,
+   "Full name": "youssef hammami",
+   "Level": "II1",
+   "Group": "D",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 152,
+   "Full name": "rym abbes",
+   "Level": "II1",
+   "Group": "D",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 153,
+   "Full name": "ameni sassi",
+   "Level": "II1",
+   "Group": "B",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 154,
+   "Full name": "yassmine ammar",
+   "Level": "II1",
+   "Group": "C",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 155,
+   "Full name": "roua saidi",
+   "Level": "II1",
+   "Group": "A",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 156,
+   "Full name": "kenza othmani",
+   "Level": "II1",
+   "Group": "D",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 157,
+   "Full name": "hend ben ayed",
+   "Level": "II1",
+   "Group": "C",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 158,
+   "Full name": "amal makhlouf",
+   "Level": "II1",
+   "Group": "E",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 159,
+   "Full name": "amal sassi",
+   "Level": "II1",
+   "Group": "B",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 160,
+   "Full name": "salma trabelsi",
+   "Level": "II1",
+   "Group": "C",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 161,
+   "Full name": "nesrine ben ayed",
+   "Level": "II1",
+   "Group": "E",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 162,
+   "Full name": "hend gharbi",
+   "Level": "II1",
+   "Group": "E",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 163,
+   "Full name": "kenza saidi",
+   "Level": "II1",
+   "Group": "F",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 164,
+   "Full name": "rym saidi",
+   "Level": "II1",
+   "Group": "C",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 165,
+   "Full name": "nesrine sassi",
+   "Level": "II1",
+   "Group": "E",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 166,
+   "Full name": "kenza trabelsi",
+   "Level": "II1",
+   "Group": "B",
+   "Major": "nan",
+   "Kmeans labels": 0
+ },
+ {
+   "FIELD1": 167,
+   "Full name": "yassmine makhlouf",
+   "Level": "II1",
+   "Group": "C",
+   "Major": "nan",
+   "Kmeans labels": 3
+ },
+ {
+   "FIELD1": 168,
+   "Full name": "yassmine cherni",
+   "Level": "II1",
+   "Group": "B",
+   "Major": "nan",
+   "Kmeans labels": 3
+ },
+ {
+   "FIELD1": 169,
+   "Full name": "kenza hammami",
+   "Level": "II1",
+   "Group": "A",
+   "Major": "nan",
+   "Kmeans labels": 3
+ },
+ {
+   "FIELD1": 170,
+   "Full name": "yassmine ben salah",
+   "Level": "II1",
+   "Group": "A",
+   "Major": "nan",
+   "Kmeans labels": 3
+ },
+ {
+   "FIELD1": 171,
+   "Full name": "emna sellami",
+   "Level": "II1",
+   "Group": "E",
+   "Major": "nan",
+   "Kmeans labels": 3
+ },
+ {
+   "FIELD1": 172,
+   "Full name": "ali saidi",
+   "Level": "II1",
+   "Group": "C",
+   "Major": "nan",
+   "Kmeans labels": 3
+ },
+ {
+   "FIELD1": 173,
+   "Full name": "mohamed gharbi",
+   "Level": "II1",
+   "Group": "E",
+   "Major": "nan",
+   "Kmeans labels": 3
+ },
+ {
+   "FIELD1": 174,
+   "Full name": "ali makhlouf",
+   "Level": "II1",
+   "Group": "C",
+   "Major": "nan",
+   "Kmeans labels": 3
+ },
+ {
+   "FIELD1": 175,
+   "Full name": "karim othmani",
+   "Level": "II1",
+   "Group": "F",
+   "Major": "nan",
+   "Kmeans labels": 3
+ },
+ {
+   "FIELD1": 176,
+   "Full name": "majdi hammami",
+   "Level": "II1",
+   "Group": "F",
+   "Major": "nan",
+   "Kmeans labels": 3
+ },
+ {
+   "FIELD1": 177,
+   "Full name": "ismail makhlouf",
+   "Level": "II1",
+   "Group": "E",
+   "Major": "nan",
+   "Kmeans labels": 3
+ },
+ {
+   "FIELD1": 178,
+   "Full name": "youssef abbes",
+   "Level": "II1",
+   "Group": "D",
+   "Major": "nan",
+   "Kmeans labels": 3
+ },
+ {
+   "FIELD1": 179,
+   "Full name": "saif ben ayed",
+   "Level": "II1",
+   "Group": "E",
+   "Major": "nan",
+   "Kmeans labels": 3
+ },
+ {
+   "FIELD1": 180,
+   "Full name": "mahdi ammar",
+   "Level": "II1",
+   "Group": "E",
+   "Major": "nan",
+   "Kmeans labels": 3
+ },
+ {
+   "FIELD1": 181,
+   "Full name": "mahdi saidi",
+   "Level": "II1",
+   "Group": "C",
+   "Major": "nan",
+   "Kmeans labels": 3
+ },
+ {
+   "FIELD1": 182,
+   "Full name": "ismail abbes",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "GL",
+   "Kmeans labels": 3
+ },
+ {
+   "FIELD1": 183,
+   "Full name": "majdi ben ayed",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "GL",
+   "Kmeans labels": 3
+ },
+ {
+   "FIELD1": 184,
+   "Full name": "mohamed aoun",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "IF",
+   "Kmeans labels": 3
+ },
+ {
+   "FIELD1": 185,
+   "Full name": "saif sassi",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "DS-CV",
+   "Kmeans labels": 3
+ },
+ {
+   "FIELD1": 186,
+   "Full name": "youssef sellami",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "ST-IOT",
+   "Kmeans labels": 3
+ },
+ {
+   "FIELD1": 187,
+   "Full name": "sabri saidi",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "IF",
+   "Kmeans labels": 3
+ },
+ {
+   "FIELD1": 188,
+   "Full name": "sabri trabelsi",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "GL",
+   "Kmeans labels": 3
+ },
+ {
+   "FIELD1": 189,
+   "Full name": "mahdi sassi",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "ST-IOT",
+   "Kmeans labels": 3
+ },
+ {
+   "FIELD1": 190,
+   "Full name": "hamdi abbes",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "IF",
+   "Kmeans labels": 3
+ },
+ {
+   "FIELD1": 191,
+   "Full name": "majdi saidi",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "IA",
+   "Kmeans labels": 3
+ },
+ {
+   "FIELD1": 192,
+   "Full name": "ismail aoun",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "IF",
+   "Kmeans labels": 3
+ },
+ {
+   "FIELD1": 193,
+   "Full name": "rami sellami",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "ST-IOT",
+   "Kmeans labels": 3
+ },
+ {
+   "FIELD1": 194,
+   "Full name": "ahmad ben salem",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "IF",
+   "Kmeans labels": 3
+ },
+ {
+   "FIELD1": 195,
+   "Full name": "moez othmani",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "IF",
+   "Kmeans labels": 3
+ },
+ {
+   "FIELD1": 196,
+   "Full name": "mohamed cherni",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "SLE",
+   "Kmeans labels": 3
+ },
+ {
+   "FIELD1": 197,
+   "Full name": "kenza abbes",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "ST-IOT",
+   "Kmeans labels": 3
+ },
+ {
+   "FIELD1": 198,
+   "Full name": "ghofrane arfaoui",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "SLE",
+   "Kmeans labels": 3
+ },
+ {
+   "FIELD1": 199,
+   "Full name": "amal saidi",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "GL",
+   "Kmeans labels": 3
+ },
+ {
+   "FIELD1": 200,
+   "Full name": "emna makhlouf",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "IF",
+   "Kmeans labels": 3
+ },
+ {
+   "FIELD1": 201,
+   "Full name": "salma ayari",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "IA",
+   "Kmeans labels": 3
+ },
+ {
+   "FIELD1": 202,
+   "Full name": "emna chakroun",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "GL",
+   "Kmeans labels": 3
+ },
+ {
+   "FIELD1": 203,
+   "Full name": "roua ben salem",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "GL",
+   "Kmeans labels": 3
+ },
+ {
+   "FIELD1": 204,
+   "Full name": "rym makhlouf",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "IA",
+   "Kmeans labels": 3
+ },
+ {
+   "FIELD1": 205,
+   "Full name": "hend abbes",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "IA",
+   "Kmeans labels": 3
+ },
+ {
+   "FIELD1": 206,
+   "Full name": "khadija aoun",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "GL",
+   "Kmeans labels": 3
+ },
+ {
+   "FIELD1": 207,
+   "Full name": "amal sellami",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "ST-IOT",
+   "Kmeans labels": 3
+ },
+ {
+   "FIELD1": 208,
+   "Full name": "nesrine ayari",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "GL",
+   "Kmeans labels": 3
+ },
+ {
+   "FIELD1": 209,
+   "Full name": "roua sassi",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "ST-IOT",
+   "Kmeans labels": 3
+ },
+ {
+   "FIELD1": 210,
+   "Full name": "roua ben salem",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "DS-CV",
+   "Kmeans labels": 3
+ },
+ {
+   "FIELD1": 211,
+   "Full name": "rym sellami",
+   "Level": "II3",
+   "Group": "nan",
+   "Major": "GL",
+   "Kmeans labels": 3
+ }
+]

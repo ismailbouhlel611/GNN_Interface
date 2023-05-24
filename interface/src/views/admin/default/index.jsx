@@ -10,6 +10,12 @@ import data2 from './data_2_clusters.json';
 import data3 from './data_3_clusters.json';
 import data4 from './data_4_clusters.json';
 import data5 from './data_5_clusters.json';
+import edge2 from './data2.json';
+import edge3 from './data3.json';
+import edge4 from './data4.json';
+import edge5 from './data5.json';
+import Graph from 'react-graph-vis';
+
 export default function UserReports() {
   // Chakra Color Mode
   const brandColor = useColorModeValue("brand.500", "white");
@@ -21,12 +27,12 @@ export default function UserReports() {
 		'14px 17px 40px 4px rgba(112, 144, 176, 0.18)',
 		'14px 17px 40px 4px rgba(112, 144, 176, 0.06)'
 	);
-  const [numberOfClusters, setNumberOfClusters] = useState("3");
+  const [numberOfClusters, setNumberOfClusters] = useState("");
   const [group, setGroup] = useState("");
   const [level, setLevel] = useState("");
   const [specialization, setSpecialization] = useState("");
   const [buttonClicked, setButtonClicked] = useState(false);
-  const [myProp, setMyProp] = useState();
+  const [myProp, setMyProp] = useState({});
 
   const handleClick = (propValue) => {
     setMyProp(propValue);
@@ -52,30 +58,145 @@ export default function UserReports() {
   };
 
   let data;
+  let edgees;
   if (numberOfClusters === "2") {
     data = data2
+    edgees = edge2
   } else if (numberOfClusters === "3") {
     data = data3
+    edgees = edge3
+
   } else if (numberOfClusters === "4") {
     data = data4
+    edgees = edge4
+
   } else {
     data = data5
+    edgees = edge5
+
   }
+  
+
 
   function filterDataByCriteria(data, group, level, specialization) {
     return data.filter(d => (d.Group === group && d.Level === level) || (d.Major === specialization && d.Level === level));
   }
   
   const filteredData = filterDataByCriteria(data, group, level, specialization);
-
+  console.log(filteredData)
+  
   const groupedData = d3.group(filteredData, d => d['Kmeans labels']);
   console.log(groupedData)
+
+  // #########################################
+
+// const nodes = [...groupedData.flatMap((lis1)=>(lis1[1]))]
+const nodes = [];
+
+for (const arr of groupedData) {
+  nodes.push(...arr.map(obj => obj));
+}
+const filteredNodes = nodes.filter(value => value !== undefined && typeof value !== 'number' );
+console.log("this is nodes " , filteredNodes)
+const edges = []
+
+const fullNames=[]
+for (const arr of filteredNodes) {
+  fullNames.push(...arr.map(obj => obj['id']));
+}
+
+for (const obj of edgees) {
+  if (fullNames.includes(obj['from']) && fullNames.includes(obj['to'])) {
+    edges.push(obj);
+  }}
+console.log("edges",edges)
+const nodees = filteredNodes.flat();
+// create graph data object
+const data1 = { nodees, edges };
+console.log("data1",data1)
+const options = {
+  edges: {
+    smooth: {
+      forceDirection: "none",
+      
+    },
+    color:"#1E2E7A",
+    arrows:{
+      to:false,
+      from:false
+    },
+  },
+  height: "100%",
+  width: "100%",
+  autoResize:true,
+  arrowStrikethrough: true,
+  chosen: true,
+  dashes: false,
+  physics: {
+    barnesHut: {
+      // gravitationalConstant: -10000,
+      centralGravity: 1,
+      springConstant: 0.00000000000001,
+      avoidOverlap: 0.1
+    },
+    
+    // maxVelocity: 0.5,
+    // minVelocity: 0
+  },
+  hierarchical: {
+    enabled: true,
+    levelSeparation: 400,
+    nodeSpacing: 200,
+    blockShifting: true,
+    edgeMinimization: true,
+    parentCentralization: true,
+    direction: 'UD',
+    sortMethod: 'hubsize',
+    shakeTowards: 'roots'
+  },
+  randomSeed: 2,
+  nodes: {
+    fixed: {
+      x: false,
+      y: false
+    },
+    shape: "eclipse",
+    size: 13,
+    borderWidth: 1.5,
+    borderWidthSelected: 2,
+    font: {
+      size: 15,
+      align: "center",
+      bold: {
+        color: "#bbbdc0",
+        size: 15,
+        vadjust: 0,
+        mod: "bold"
+      }
+    }
+  },
+ 
+  }
+
+var events = {
+  select: function(event) {
+      var { nodees, edges } = event;
+  }
+}
   return (
     <>
     <div className="graph_container">
-    {/* {buttonClicked && <MyVisComponent myProp={myProp} />}
-    {!buttonClicked && <MyVisComponent />} */}
-    {buttonClicked && <MyVisComponent myProp={myProp} />}
+    {/* {buttonClicked && <MyVisComponent myProp={myProp} />} */}
+    {buttonClicked && 
+    <div className='mynetwork'>
+      <Graph
+        graph={data1}
+        options={options}
+        events={events}
+      />
+    </div>}
+    {/* {!buttonClicked && <MyVisComponent />} */}
+    {/* {buttonClicked && <MyVisComponent myProp={myProp} />} */}
     </div>
     <div style={{marginTop:'20px' ,display: 'grid', gridTemplateColumns: 'repeat(1, 3fr)', gridGap: '15px', marginLeft:'400px'}}>
     <Box mb={4} >
@@ -164,7 +285,7 @@ export default function UserReports() {
 							Number of clusters :
               <br/>
 		</Text>
-  <Button mr={2} style={{backgroundColor:'#11047A'}} onClick={() =>handleNumClustersChange(2)}>
+  <Button mr={2} style={{backgroundColor:'#11047A'}} onClick={() =>handleNumClustersChange('2')}>
       2
     </Button>
     <Button mr={2} style={{backgroundColor:'#11047A'}} onClick={() =>handleNumClustersChange('3')}>

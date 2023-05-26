@@ -32,15 +32,16 @@ export default function UserReports() {
   const [level, setLevel] = useState("");
   const [specialization, setSpecialization] = useState("");
   const [buttonClicked, setButtonClicked] = useState(false);
-  const [myProp, setMyProp] = useState({});
-
-  const handleClick = (propValue) => {
-    setMyProp(propValue);
+  
+  const handleClick = () => {
     setButtonClicked(true);
   };
 
   const handleIIButtonClick = (value) => {
-    setLevel(value)
+    setLevel(value);
+    if (buttonClicked){
+      window.location.reload(false);
+    }
   };
 
   const handleGroupButtonClick = (value) => {
@@ -91,20 +92,21 @@ export default function UserReports() {
   // #########################################
 
 // const nodes = [...groupedData.flatMap((lis1)=>(lis1[1]))]
-const nodes = [];
+let nodes = [];
+ 
 
 for (const arr of groupedData) {
   nodes.push(...arr.map(obj => obj));
 }
 const filteredNodes = nodes.filter(value => value !== undefined && typeof value !== 'number' );
 console.log("this is nodes " , filteredNodes)
-const edges = []
+
 
 const fullNames=[]
 for (const arr of filteredNodes) {
   fullNames.push(...arr.map(obj => obj['id']));
 }
-
+let edges = []
 for (const obj of edgees) {
   if (fullNames.includes(obj['from']) && fullNames.includes(obj['to'])) {
     edges.push(obj);
@@ -112,9 +114,42 @@ for (const obj of edgees) {
 console.log("edges",edges)
 const nodees = filteredNodes.flat();
 // create graph data object
-const data1 = { nodees, edges };
+const data1 = {nodes: nodees, edges:edges };
 console.log("data1",data1)
 const options = {
+  groups:{
+    0: {
+      color : {
+        background:'#2a896a',
+        
+        highlight:{
+          border: "#5a85a2",
+          background:"#2a896a"
+        }
+      },
+      
+    },
+    1: {
+      color : {
+        background:'#bb7e1b'
+      }
+  },
+  2 :{
+    color : {
+      background :"#bb1b3b"
+    }
+  },
+  3 :{
+    color : {
+      background :"#3bbb1b"
+    }
+  },
+  4 :{
+    color : {
+      background :"#bb1b9a"
+    }
+  },
+},
   edges: {
     smooth: {
       forceDirection: "none",
@@ -214,8 +249,10 @@ var events = {
       II3
     </Button>
   </Box>
-  <Box mb={4}>
-  <Text fontSize="md" fontWeight="600" color={textColor}>
+  <Box mb={4}> 
+    {level !== "II3" ? (
+      <>
+    <Text fontSize="md" fontWeight="600" color={textColor}>
 							Group :
               <br/>
 		</Text>
@@ -237,6 +274,8 @@ var events = {
     <Button mr={2} style={{backgroundColor:'#11047A'}} onClick={() => handleGroupButtonClick('F')}>
       F
     </Button>
+    </>
+    ) : null}
   </Box>
   {level !== "II1" ? (
   <Box mb={4}>
@@ -300,7 +339,7 @@ var events = {
   </Box>
   <Box mb={4}>
   
-  <Button mr={2} style={{backgroundColor:'#11047A'}} onClick={() => handleClick(groupedData)}>
+  <Button mr={2} style={{backgroundColor:'#E31A1A'}} onClick={() => handleClick()}>
       Render the graph
   </Button>
   </Box>

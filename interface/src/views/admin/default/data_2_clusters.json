@@ -5,7 +5,7 @@
    "Level": "II1",
    "Group": "B",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -14,7 +14,7 @@
    "Level": "II1",
    "Group": "B",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 1
  },
  {
@@ -23,7 +23,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "ST-IOT",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -32,7 +32,7 @@
    "Level": "II1",
    "Group": "E",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -41,7 +41,7 @@
    "Level": "II2",
    "Group": "B",
    "Major": "IA",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 1
  },
  {
@@ -50,7 +50,7 @@
    "Level": "II1",
    "Group": "D",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -59,7 +59,7 @@
    "Level": "II1",
    "Group": "F",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 1
  },
  {
@@ -68,7 +68,7 @@
    "Level": "II1",
    "Group": "D",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 1
  },
  {
@@ -77,7 +77,7 @@
    "Level": "II2",
    "Group": "C",
    "Major": "IF",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -86,7 +86,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "GL",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -95,7 +95,7 @@
    "Level": "II2",
    "Group": "D",
    "Major": "IA",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -104,7 +104,7 @@
    "Level": "II2",
    "Group": "C",
    "Major": "IA",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 1
  },
  {
@@ -113,7 +113,7 @@
    "Level": "II1",
    "Group": "D",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -122,7 +122,7 @@
    "Level": "II1",
    "Group": "A",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 1
  },
  {
@@ -131,7 +131,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "ST-IOT",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 1
  },
  {
@@ -140,7 +140,7 @@
    "Level": "II1",
    "Group": "C",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -149,7 +149,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "GL",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 1
  },
  {
@@ -158,7 +158,7 @@
    "Level": "II1",
    "Group": "F",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 1
  },
  {
@@ -167,7 +167,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "GL",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 1
  },
  {
@@ -176,7 +176,7 @@
    "Level": "II1",
    "Group": "D",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 1
  },
  {
@@ -185,7 +185,7 @@
    "Level": "II1",
    "Group": "A",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 1
  },
  {
@@ -194,7 +194,7 @@
    "Level": "II2",
    "Group": "B",
    "Major": "GL2",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -203,7 +203,7 @@
    "Level": "II2",
    "Group": "C",
    "Major": "IA",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -212,7 +212,7 @@
    "Level": "II1",
    "Group": "F",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -221,7 +221,7 @@
    "Level": "II1",
    "Group": "E",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 1
  },
  {
@@ -230,7 +230,7 @@
    "Level": "II2",
    "Group": "A",
    "Major": "GL1",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 1
  },
  {
@@ -239,7 +239,7 @@
    "Level": "II1",
    "Group": "E",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -248,7 +248,7 @@
    "Level": "II2",
    "Group": "D",
    "Major": "IF",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 1
  },
  {
@@ -257,7 +257,7 @@
    "Level": "II1",
    "Group": "F",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 1
  },
  {
@@ -266,7 +266,7 @@
    "Level": "II1",
    "Group": "F",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -275,7 +275,7 @@
    "Level": "II2",
    "Group": "D",
    "Major": "IA",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -284,7 +284,7 @@
    "Level": "II2",
    "Group": "F",
    "Major": "GL1",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 1
  },
  {
@@ -293,7 +293,7 @@
    "Level": "II1",
    "Group": "A",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -302,7 +302,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "GL",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -311,7 +311,7 @@
    "Level": "II2",
    "Group": "F",
    "Major": "SLE",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -320,7 +320,7 @@
    "Level": "II1",
    "Group": "F",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 1
  },
  {
@@ -329,7 +329,7 @@
    "Level": "II2",
    "Group": "D",
    "Major": "GL2",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -338,7 +338,7 @@
    "Level": "II1",
    "Group": "D",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 1
  },
  {
@@ -347,7 +347,7 @@
    "Level": "II2",
    "Group": "D",
    "Major": "ST-IOT",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -356,7 +356,7 @@
    "Level": "II2",
    "Group": "F",
    "Major": "GL1",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -365,7 +365,7 @@
    "Level": "II2",
    "Group": "D",
    "Major": "GL2",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -374,7 +374,7 @@
    "Level": "II1",
    "Group": "B",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 1
  },
  {
@@ -383,7 +383,7 @@
    "Level": "II2",
    "Group": "E",
    "Major": "ST-IOT",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 1
  },
  {
@@ -392,7 +392,7 @@
    "Level": "II2",
    "Group": "E",
    "Major": "IA",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 1
  },
  {
@@ -401,7 +401,7 @@
    "Level": "II1",
    "Group": "B",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 1
  },
  {
@@ -410,7 +410,7 @@
    "Level": "II2",
    "Group": "A",
    "Major": "IA",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -419,7 +419,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "ST-IOT",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -428,7 +428,7 @@
    "Level": "II2",
    "Group": "D",
    "Major": "GL2",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -437,7 +437,7 @@
    "Level": "II2",
    "Group": "D",
    "Major": "IA",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -446,7 +446,7 @@
    "Level": "II2",
    "Group": "C",
    "Major": "IA",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -455,7 +455,7 @@
    "Level": "II2",
    "Group": "C",
    "Major": "SLE",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -464,7 +464,7 @@
    "Level": "II2",
    "Group": "D",
    "Major": "ST-IOT",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 1
  },
  {
@@ -473,7 +473,7 @@
    "Level": "II2",
    "Group": "C",
    "Major": "ST-IOT",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -482,7 +482,7 @@
    "Level": "II2",
    "Group": "C",
    "Major": "GL1",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -491,7 +491,7 @@
    "Level": "II2",
    "Group": "B",
    "Major": "IA",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -500,7 +500,7 @@
    "Level": "II2",
    "Group": "E",
    "Major": "IA",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 1
  },
  {
@@ -509,7 +509,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "DS-CV",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -518,7 +518,7 @@
    "Level": "II1",
    "Group": "B",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -527,7 +527,7 @@
    "Level": "II1",
    "Group": "C",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 1
  },
  {
@@ -536,7 +536,7 @@
    "Level": "II2",
    "Group": "F",
    "Major": "ST-IOT",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -545,7 +545,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "IA",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -554,7 +554,7 @@
    "Level": "II2",
    "Group": "D",
    "Major": "SLE",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -563,7 +563,7 @@
    "Level": "II2",
    "Group": "F",
    "Major": "GL1",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 1
  },
  {
@@ -572,7 +572,7 @@
    "Level": "II2",
    "Group": "B",
    "Major": "GL2",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -581,7 +581,7 @@
    "Level": "II2",
    "Group": "C",
    "Major": "ST-IOT",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -590,7 +590,7 @@
    "Level": "II1",
    "Group": "A",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -599,7 +599,7 @@
    "Level": "II1",
    "Group": "A",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -608,7 +608,7 @@
    "Level": "II1",
    "Group": "B",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -617,7 +617,7 @@
    "Level": "II1",
    "Group": "F",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 1
  },
  {
@@ -626,7 +626,7 @@
    "Level": "II2",
    "Group": "D",
    "Major": "IF",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -635,7 +635,7 @@
    "Level": "II1",
    "Group": "D",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -644,7 +644,7 @@
    "Level": "II1",
    "Group": "C",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -653,7 +653,7 @@
    "Level": "II1",
    "Group": "D",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -662,7 +662,7 @@
    "Level": "II1",
    "Group": "C",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 1
  },
  {
@@ -671,7 +671,7 @@
    "Level": "II1",
    "Group": "A",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -680,7 +680,7 @@
    "Level": "II2",
    "Group": "D",
    "Major": "DS-CV",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 1
  },
  {
@@ -689,7 +689,7 @@
    "Level": "II2",
    "Group": "C",
    "Major": "GL2",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 1
  },
  {
@@ -698,7 +698,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "DS-CV",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 1
  },
  {
@@ -707,7 +707,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "IF",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 1
  },
  {
@@ -716,7 +716,7 @@
    "Level": "II1",
    "Group": "A",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 1
  },
  {
@@ -725,7 +725,7 @@
    "Level": "II1",
    "Group": "B",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -734,7 +734,7 @@
    "Level": "II1",
    "Group": "E",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -743,7 +743,7 @@
    "Level": "II2",
    "Group": "A",
    "Major": "IF",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -752,7 +752,7 @@
    "Level": "II2",
    "Group": "D",
    "Major": "SLE",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 1
  },
  {
@@ -761,7 +761,7 @@
    "Level": "II2",
    "Group": "A",
    "Major": "IF",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 1
  },
  {
@@ -770,7 +770,7 @@
    "Level": "II2",
    "Group": "F",
    "Major": "IA",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 1
  },
  {
@@ -779,7 +779,7 @@
    "Level": "II2",
    "Group": "C",
    "Major": "SLE",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 1
  },
  {
@@ -788,7 +788,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "IF",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 1
  },
  {
@@ -797,7 +797,7 @@
    "Level": "II2",
    "Group": "F",
    "Major": "SLE",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 1
  },
  {
@@ -806,7 +806,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "ST-IOT",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 0
  },
  {
@@ -815,7 +815,7 @@
    "Level": "II1",
    "Group": "A",
    "Major": "nan",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 0
  },
  {
@@ -824,7 +824,7 @@
    "Level": "II1",
    "Group": "F",
    "Major": "nan",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 1
  },
  {
@@ -833,7 +833,7 @@
    "Level": "II2",
    "Group": "F",
    "Major": "ST-IOT",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 1
  },
  {
@@ -842,7 +842,7 @@
    "Level": "II2",
    "Group": "B",
    "Major": "GL2",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 0
  },
  {
@@ -851,7 +851,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "ST-IOT",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 1
  },
  {
@@ -860,7 +860,7 @@
    "Level": "II1",
    "Group": "E",
    "Major": "nan",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 1
  },
  {
@@ -869,7 +869,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "SLE",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 1
  },
  {
@@ -878,7 +878,7 @@
    "Level": "II2",
    "Group": "A",
    "Major": "ST-IOT",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 1
  },
  {
@@ -887,7 +887,7 @@
    "Level": "II1",
    "Group": "C",
    "Major": "nan",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 1
  },
  {
@@ -896,7 +896,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "GL",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 1
  },
  {
@@ -905,7 +905,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "IF",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 1
  },
  {
@@ -914,7 +914,7 @@
    "Level": "II2",
    "Group": "D",
    "Major": "IA",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 1
  },
  {
@@ -923,7 +923,7 @@
    "Level": "II2",
    "Group": "A",
    "Major": "SLE",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 1
  },
  {
@@ -932,7 +932,7 @@
    "Level": "II1",
    "Group": "C",
    "Major": "nan",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 1
  },
  {
@@ -941,7 +941,7 @@
    "Level": "II2",
    "Group": "C",
    "Major": "ST-IOT",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 1
  },
  {
@@ -950,7 +950,7 @@
    "Level": "II2",
    "Group": "F",
    "Major": "ST-IOT",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 0
  },
  {
@@ -959,7 +959,7 @@
    "Level": "II1",
    "Group": "E",
    "Major": "nan",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 0
  },
  {
@@ -968,7 +968,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "IA",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -977,7 +977,7 @@
    "Level": "II1",
    "Group": "A",
    "Major": "nan",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 0
  },
  {
@@ -986,7 +986,7 @@
    "Level": "II2",
    "Group": "F",
    "Major": "GL1",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 0
  },
  {
@@ -995,7 +995,7 @@
    "Level": "II1",
    "Group": "D",
    "Major": "nan",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 0
  },
  {
@@ -1004,7 +1004,7 @@
    "Level": "II1",
    "Group": "F",
    "Major": "nan",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 1
  },
  {
@@ -1013,7 +1013,7 @@
    "Level": "II2",
    "Group": "D",
    "Major": "DS-CV",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 1
  },
  {
@@ -1022,7 +1022,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "DS-CV",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 1
  },
  {
@@ -1031,7 +1031,7 @@
    "Level": "II1",
    "Group": "F",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 1
  },
  {
@@ -1040,7 +1040,7 @@
    "Level": "II2",
    "Group": "A",
    "Major": "ST-IOT",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 0
  },
  {
@@ -1049,7 +1049,7 @@
    "Level": "II2",
    "Group": "C",
    "Major": "GL1",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 1
  },
  {
@@ -1058,7 +1058,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "IA",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -1067,7 +1067,7 @@
    "Level": "II2",
    "Group": "B",
    "Major": "SLE",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 1
  },
  {
@@ -1076,7 +1076,7 @@
    "Level": "II2",
    "Group": "C",
    "Major": "GL1",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -1085,7 +1085,7 @@
    "Level": "II2",
    "Group": "C",
    "Major": "SLE",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 1
  },
  {
@@ -1094,7 +1094,7 @@
    "Level": "II1",
    "Group": "F",
    "Major": "nan",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 1
  },
  {
@@ -1103,7 +1103,7 @@
    "Level": "II1",
    "Group": "D",
    "Major": "nan",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 0
  },
  {
@@ -1112,7 +1112,7 @@
    "Level": "II2",
    "Group": "D",
    "Major": "IA",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 1
  },
  {
@@ -1121,7 +1121,7 @@
    "Level": "II2",
    "Group": "D",
    "Major": "GL1",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 0
  },
  {
@@ -1130,7 +1130,7 @@
    "Level": "II2",
    "Group": "F",
    "Major": "SLE",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 1
  },
  {
@@ -1139,7 +1139,7 @@
    "Level": "II2",
    "Group": "F",
    "Major": "IA",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 1
  },
  {
@@ -1148,7 +1148,7 @@
    "Level": "II1",
    "Group": "D",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -1157,7 +1157,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "DS-CV",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 1
  },
  {
@@ -1166,7 +1166,7 @@
    "Level": "II2",
    "Group": "D",
    "Major": "DS-CV",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 1
  },
  {
@@ -1175,7 +1175,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "IA",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 0
  },
  {
@@ -1184,7 +1184,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "DS-CV",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 1
  },
  {
@@ -1193,7 +1193,7 @@
    "Level": "II2",
    "Group": "C",
    "Major": "IA",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 1
  },
  {
@@ -1202,7 +1202,7 @@
    "Level": "II1",
    "Group": "D",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -1211,7 +1211,7 @@
    "Level": "II1",
    "Group": "F",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 1
  },
  {
@@ -1220,7 +1220,7 @@
    "Level": "II2",
    "Group": "F",
    "Major": "IA",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 0
  },
  {
@@ -1229,7 +1229,7 @@
    "Level": "II2",
    "Group": "F",
    "Major": "SLE",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 0
  },
  {
@@ -1238,7 +1238,7 @@
    "Level": "II1",
    "Group": "D",
    "Major": "nan",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 1
  },
  {
@@ -1247,7 +1247,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "SLE",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 1
  },
  {
@@ -1256,7 +1256,7 @@
    "Level": "II2",
    "Group": "E",
    "Major": "ST-IOT",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 1
  },
  {
@@ -1265,7 +1265,7 @@
    "Level": "II2",
    "Group": "F",
    "Major": "IA",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 1
  },
  {
@@ -1274,7 +1274,7 @@
    "Level": "II2",
    "Group": "D",
    "Major": "ST-IOT",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 0
  },
  {
@@ -1283,7 +1283,7 @@
    "Level": "II1",
    "Group": "A",
    "Major": "nan",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 1
  },
  {
@@ -1292,7 +1292,7 @@
    "Level": "II1",
    "Group": "E",
    "Major": "nan",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 0
  },
  {
@@ -1301,7 +1301,7 @@
    "Level": "II1",
    "Group": "F",
    "Major": "nan",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 1
  },
  {
@@ -1310,7 +1310,7 @@
    "Level": "II1",
    "Group": "E",
    "Major": "nan",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 1
  },
  {
@@ -1319,7 +1319,7 @@
    "Level": "II1",
    "Group": "C",
    "Major": "nan",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 0
  },
  {
@@ -1328,7 +1328,7 @@
    "Level": "II1",
    "Group": "C",
    "Major": "nan",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 0
  },
  {
@@ -1337,7 +1337,7 @@
    "Level": "II1",
    "Group": "B",
    "Major": "nan",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 0
  },
  {
@@ -1346,7 +1346,7 @@
    "Level": "II1",
    "Group": "D",
    "Major": "nan",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 0
  },
  {
@@ -1355,7 +1355,7 @@
    "Level": "II1",
    "Group": "D",
    "Major": "nan",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 0
  },
  {
@@ -1364,7 +1364,7 @@
    "Level": "II1",
    "Group": "D",
    "Major": "nan",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 0
  },
  {
@@ -1373,7 +1373,7 @@
    "Level": "II1",
    "Group": "D",
    "Major": "nan",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 0
  },
  {
@@ -1382,7 +1382,7 @@
    "Level": "II1",
    "Group": "B",
    "Major": "nan",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 0
  },
  {
@@ -1391,7 +1391,7 @@
    "Level": "II1",
    "Group": "C",
    "Major": "nan",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 0
  },
  {
@@ -1400,7 +1400,7 @@
    "Level": "II1",
    "Group": "A",
    "Major": "nan",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 0
  },
  {
@@ -1409,7 +1409,7 @@
    "Level": "II1",
    "Group": "D",
    "Major": "nan",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 0
  },
  {
@@ -1418,7 +1418,7 @@
    "Level": "II1",
    "Group": "C",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -1427,7 +1427,7 @@
    "Level": "II1",
    "Group": "E",
    "Major": "nan",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 0
  },
  {
@@ -1436,7 +1436,7 @@
    "Level": "II1",
    "Group": "B",
    "Major": "nan",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 0
  },
  {
@@ -1445,7 +1445,7 @@
    "Level": "II1",
    "Group": "C",
    "Major": "nan",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 0
  },
  {
@@ -1454,7 +1454,7 @@
    "Level": "II1",
    "Group": "E",
    "Major": "nan",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 0
  },
  {
@@ -1463,7 +1463,7 @@
    "Level": "II1",
    "Group": "E",
    "Major": "nan",
-   "Kmeans labels": 0,
+   "group": 0,
    "Spectral labels": 0
  },
  {
@@ -1472,7 +1472,7 @@
    "Level": "II1",
    "Group": "F",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -1481,7 +1481,7 @@
    "Level": "II1",
    "Group": "C",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -1490,7 +1490,7 @@
    "Level": "II1",
    "Group": "E",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -1499,7 +1499,7 @@
    "Level": "II1",
    "Group": "B",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -1508,7 +1508,7 @@
    "Level": "II1",
    "Group": "C",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -1517,7 +1517,7 @@
    "Level": "II1",
    "Group": "B",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -1526,7 +1526,7 @@
    "Level": "II1",
    "Group": "A",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -1535,7 +1535,7 @@
    "Level": "II1",
    "Group": "A",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -1544,7 +1544,7 @@
    "Level": "II1",
    "Group": "E",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -1553,7 +1553,7 @@
    "Level": "II1",
    "Group": "C",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -1562,7 +1562,7 @@
    "Level": "II1",
    "Group": "E",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -1571,7 +1571,7 @@
    "Level": "II1",
    "Group": "C",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -1580,7 +1580,7 @@
    "Level": "II1",
    "Group": "F",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -1589,7 +1589,7 @@
    "Level": "II1",
    "Group": "F",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -1598,7 +1598,7 @@
    "Level": "II1",
    "Group": "E",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -1607,7 +1607,7 @@
    "Level": "II1",
    "Group": "D",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -1616,7 +1616,7 @@
    "Level": "II1",
    "Group": "E",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -1625,7 +1625,7 @@
    "Level": "II1",
    "Group": "E",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -1634,7 +1634,7 @@
    "Level": "II1",
    "Group": "C",
    "Major": "nan",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -1643,7 +1643,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "GL",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -1652,7 +1652,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "GL",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 1
  },
  {
@@ -1661,7 +1661,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "IF",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -1670,7 +1670,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "DS-CV",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -1679,7 +1679,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "ST-IOT",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -1688,7 +1688,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "IF",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -1697,7 +1697,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "GL",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 1
  },
  {
@@ -1706,7 +1706,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "ST-IOT",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -1715,7 +1715,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "IF",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -1724,7 +1724,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "IA",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -1733,7 +1733,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "IF",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -1742,7 +1742,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "ST-IOT",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -1751,7 +1751,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "IF",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -1760,7 +1760,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "IF",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 1
  },
  {
@@ -1769,7 +1769,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "SLE",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -1778,7 +1778,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "ST-IOT",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -1787,7 +1787,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "SLE",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -1796,7 +1796,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "GL",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -1805,7 +1805,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "IF",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -1814,7 +1814,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "IA",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -1823,7 +1823,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "GL",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -1832,7 +1832,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "GL",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -1841,7 +1841,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "IA",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -1850,7 +1850,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "IA",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -1859,7 +1859,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "GL",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -1868,7 +1868,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "ST-IOT",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -1877,7 +1877,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "GL",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -1886,7 +1886,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "ST-IOT",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -1895,7 +1895,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "DS-CV",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  },
  {
@@ -1904,7 +1904,7 @@
    "Level": "II3",
    "Group": "nan",
    "Major": "GL",
-   "Kmeans labels": 1,
+   "group": 1,
    "Spectral labels": 0
  }
 ]

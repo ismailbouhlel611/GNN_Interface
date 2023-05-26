@@ -62,9 +62,9 @@ const SignIn =({login,isAuthenticated}) => {
     if (isAuthenticated===true) {
       return <Redirect to='/admin/default' />
     }
-    else if(isAuthenticated===false){
-      alert("Please check the email an password")
-    }
+    // else if(isAuthenticated===false){
+    //   alert("Please check the email and password")
+    // }
 
   return (
     <DefaultAuth illustrationBackground={illustration} image={illustration}>
